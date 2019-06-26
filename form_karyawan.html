@@ -29,7 +29,6 @@
     <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
     <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
     <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
-    <link href="vendor/DataTables/datatables.min.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
@@ -235,104 +234,163 @@
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <a href="form_karyawan.html" type="submit" class="btn btn-primary btn-sm">
-                                                <i class="fa fa-dot-circle-o"></i> Tambah Data
-                                            </a>
-
                                             <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
-                                                <!-- DATA TABLE-->
-                                                <div class="table-responsive m-b-40">
-                                                    <table class="table table-borderless table-data3">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>ID</th>
-                                                                <th>Name</th>
-                                                                <th>NIK</th>
-                                                                <th>Email</th>
-                                                                <th>Action</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>01</td>
-                                                                <td>Veroooooooooooooo</td>
-                                                                <td>098723806739872</td>
-                                                                <td>veroooo@gmail.com</td>
-                                                                <td>
-                                                                    <button type="submit" class="btn btn-primary btn-sm">
-                                                                        <i class="fa fa-dot-circle-o"></i> Detail
-                                                                    </button>
-                                                                    <button type="submit" class="btn btn-primary btn-sm">
-                                                                        <i class="fa fa-dot-circle-o"></i> Edit
-                                                                    </button>
-                                                                    <!-- <button type="submit" class="btn btn-primary btn-sm">
-                                                                        <i class="fa fa-dot-circle-o"></i> Hapus
-                                                                    </button>
-                                                                    <button type="submit" class="btn btn-primary btn-sm">
-                                                                    <i class="fa fa-dot-circle-o"></i> Reset Password
-                                                                    </button> -->
-
-                                                                    <!-- Button trigger modal -->
-                                                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
-                                                                        <i class="fa fa-dot-circle-o"></i> Hapus
-                                                                    </button>
-
-                                                                    <!-- Modal -->
-                                                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                                                            <div class="modal-content">
-                                                                                <div class="modal-header">
-                                                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Hapus</h5>
-                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                                        <span aria-hidden="true">&times;</span>
-                                                                                    </button>
-                                                                                </div>
-                                                                                <div class="modal-body">
-                                                                                    Hapus data ini?
-                                                                                </div>
-                                                                                <div class="modal-footer">
-                                                                                    <button type="button" class="btn btn-primary">Hapus</button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <!-- Button trigger modal -->
-                                                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
-                                                                        <i class="fa fa-dot-circle-o"></i> Reset Password
-                                                                    </button>
-
-                                                                    <!-- Modal -->
-                                                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                                                            <div class="modal-content">
-                                                                                <div class="modal-header">
-                                                                                    <h5 class="modal-title" id="exampleModalCenterTitle">Reset Password</h5>
-                                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                                        <span aria-hidden="true">&times;</span>
-                                                                                    </button>
-                                                                                </div>
-                                                                                <div class="modal-body">
-                                                                                    Reset password user ini?
-                                                                                </div>
-                                                                                <div class="modal-footer">
-                                                                                    <button type="button" class="btn btn-primary">Reset Password</button>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="name" class=" form-control-label">Name</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <input type="text" id="name" name="name" placeholder="Name" class="form-control">
+                                                    </div>
                                                 </div>
-                                                <!-- END DATA TABLE-->
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="date_birth" class=" form-control-label">Date of Birth</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <input type="date" id="birth" name="dateBirth" placeholder="" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="position" class=" form-control-label">Positions</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <select name="position" id="position" class="form-control">
+                                                            <option value="0">Please select</option>
+                                                            <option value="1">Option #1</option>
+                                                            <option value="2">Option #2</option>
+                                                            <option value="3">Option #3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="date_hired" class=" form-control-label">Date Hired</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <input type="date" id="hired" name="dateHired" placeholder="" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="address" class=" form-control-label">Address</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <textarea name="address" id="address" rows="9" placeholder="" class="form-control"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="nik" class=" form-control-label">NIK</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <input type="text" id="nik" name="nik" placeholder="" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="npwp" class=" form-control-label">NPWP</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <input type="text" id="npwp" name="npwp" placeholder="" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label class=" form-control-label">Softskills</label>
+                                                    </div>
+                                                    <div class="col col-md-9">
+                                                        <div class="form-check">
+                                                            <div class="checkbox">
+                                                                <label for="checkbox1" class="form-check-label ">
+                                                                    <input type="checkbox" id="checkbox1" name="checkbox1" value="option1"
+                                                                        class="form-check-input">Option 1
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox">
+                                                                <label for="checkbox2" class="form-check-label ">
+                                                                    <input type="checkbox" id="checkbox2" name="checkbox2" value="option2"
+                                                                        class="form-check-input"> Option 2
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox">
+                                                                <label for="checkbox3" class="form-check-label ">
+                                                                    <input type="checkbox" id="checkbox3" name="checkbox3" value="option3"
+                                                                        class="form-check-input"> Option 3
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label class=" form-control-label">Hardskills</label>
+                                                    </div>
+                                                    <div class="col col-md-9">
+                                                        <div class="form-check">
+                                                            <div class="checkbox">
+                                                                <label for="checkbox1" class="form-check-label ">
+                                                                    <input type="checkbox" id="checkbox1" name="checkbox1" value="option1"
+                                                                        class="form-check-input">Option 1
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox">
+                                                                <label for="checkbox2" class="form-check-label ">
+                                                                    <input type="checkbox" id="checkbox2" name="checkbox2" value="option2"
+                                                                        class="form-check-input"> Option 2
+                                                                </label>
+                                                            </div>
+                                                            <div class="checkbox">
+                                                                <label for="checkbox3" class="form-check-label ">
+                                                                    <input type="checkbox" id="checkbox3" name="checkbox3" value="option3"
+                                                                        class="form-check-input"> Option 3
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="email" class=" form-control-label">Email</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <input type="email" id="email" name="email" placeholder="" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="departemen" class=" form-control-label">Departemen</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <select name="position" id="position" class="form-control">
+                                                            <option value="0">Please select</option>
+                                                            <option value="1">Option #1</option>
+                                                            <option value="2">Option #2</option>
+                                                            <option value="3">Option #3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="photo" class=" form-control-label">Photo</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <input type="file" id="photo" name="photo" class="form-control-file">
+                                                    </div>
+                                                </div>
                                             </form>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button type="submit" class="btn btn-primary btn-sm">
+                                                <i class="fa fa-dot-circle-o"></i> Submit
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                     <div class="row">
                         <div class="col-md-12">
@@ -349,8 +407,6 @@
     </div>
 
     </div>
-
-
 
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>
@@ -370,18 +426,11 @@
     <script src="vendor/circle-progress/circle-progress.min.js"></script>
     <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
     <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js"></script>
-    <script src="vendor/DataTables/datatables.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#myTable').DataTable();
-        });
+    <script src="vendor/select2/select2.min.js">
     </script>
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
-
-
 
 </body>
 
