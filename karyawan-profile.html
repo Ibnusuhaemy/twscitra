@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Manager | Edit Profile</title>
+    <title>Karyawan | Profile</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -56,17 +56,28 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li>
-                            <a class="js-arrow" href="manager.html">
+                        <li class="active">
+                            <a class="js-arrow" href="karyawan.html">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i class="fas fa-chart-bar"></i>Training Request</a>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-copy"></i>Training</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="#">Penugasan Training</a>
+                                </li>
+                                <li>
+                                    <a href="#">Training Request</a>
+                                </li>
+                                <li>
+                                    <a href="#">Hasil Training</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="login.html">
                                 <i class="fas fa-arrow-alt-circle-left"></i>Logout</a>
                         </li>
                     </ul>
@@ -85,17 +96,28 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li>
-                            <a class="js-arrow" href="manager.html">
+                        <li class="active">
+                            <a class="js-arrow" href="karyawan.html">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i class="fas fa-chart-bar"></i>Training Request</a>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-copy"></i>Training</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="#">Penugasan Training</a>
+                                </li>
+                                <li>
+                                    <a href="#">Training Request</a>
+                                </li>
+                                <li>
+                                    <a href="#">Hasil Training</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="login.html">
                                 <i class="fas fa-arrow-alt-circle-left"></i>Logout</a>
                         </li>
                     </ul>
@@ -120,7 +142,7 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">Manager</a>
+                                            <a class="js-acc-btn" href="#">Karyawan</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -131,14 +153,14 @@
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">Manager</a>
+                                                        <a href="#">Karyawan</a>
                                                     </h5>
-                                                    <span class="email">What a good day, Manager</span>
+                                                    <span class="email">What a good day, karyawan</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="manager-profile.html">
+                                                    <a href="karyawan-profile.html">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>
@@ -166,95 +188,150 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Profile
+                                            <i class="zmdi zmdi-account-calendar"></i>Profil
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                            <form action="" method="post" enctype="multipart/form-data"
+                                                class="form-horizontal">
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="nama-manager" class=" form-control-label">Nama</label>
+                                                        <label for="username" class=" form-control-label">Nama</label>
                                                     </div>
+                                                    <!-- <div class="col-12 col-md-9">
+                                                        <input type="text" id="username" name="username" placeholder="" class="form-control">
+                                                    </div> -->
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nama-manager" name="nama-manager" placeholder="Veroo" class="form-control">
+                                                        <label for="username" class=" form-control-label">Veroo</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="password-input"
+                                                            class=" form-control-label">Jabatan</label>
+                                                    </div>
+                                                    <!-- <div class="col-12 col-md-9">
+                                                        <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
+                                                    </div> -->
+                                                    <div class="col-12 col-md-9">
+                                                        <label for="password-input"
+                                                            class=" form-control-label">karyawan</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="jabatan-manager" class=" form-control-label">Jabatan</label>
+                                                        <label for="password-input" class=" form-control-label">Tanggal
+                                                            Direkrut</label>
                                                     </div>
+                                                    <!-- <div class="col-12 col-md-9">
+                                                        <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
+                                                    </div> -->
                                                     <div class="col-12 col-md-9">
-                                                        <select name="Jabatan" id="jabatan-manager" class="form-control">
-                                                            <option value="0">Pilih</option>
-                                                            <option value="1">Manager</option>
-                                                            <option value="2">Admin</option>
-                                                            <option value="3">Karyawan</option>
-                                                        </select>
+                                                        <label for="password-input" class=" form-control-label">08
+                                                            Desember 2019</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="tglrekrut-manager" class=" form-control-label">Tanggal Direkrut</label>
+                                                        <label for="password-input"
+                                                            class=" form-control-label">Alamat</label>
                                                     </div>
+                                                    <!-- <div class="col-12 col-md-9">
+                                                        <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
+                                                    </div> -->
                                                     <div class="col-12 col-md-9">
-                                                        <input type="date" id="tglrekrut-manager" name="tglrekrut-manager" class="form-control">
+                                                        <label for="password-input" class=" form-control-label">Jalan
+                                                            Kenangan Abadi no.1</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="alamat-manager" class=" form-control-label">Alamat</label>
+                                                        <label for="password-input"
+                                                            class=" form-control-label">NIK</label>
                                                     </div>
+                                                    <!-- <div class="col-12 col-md-9">
+                                                        <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
+                                                    </div> -->
                                                     <div class="col-12 col-md-9">
-                                                        <textarea name="textarea-input" id="alamat-manager" rows="2" class="form-control"></textarea>
+                                                        <label for="password-input"
+                                                            class=" form-control-label">789261849212</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="nik-manager" class=" form-control-label">NIK</label>
+                                                        <label for="password-input" class=" form-control-label">Tanggal
+                                                            Direkrut</label>
                                                     </div>
+                                                    <!-- <div class="col-12 col-md-9">
+                                                        <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
+                                                    </div> -->
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nik-manager" name="nama-manager" class="form-control">
+                                                        <label for="password-input" class=" form-control-label">08
+                                                            Desember 2019</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="npwp-manager" class=" form-control-label">NPWP</label>
+                                                        <label for="password-input"
+                                                            class=" form-control-label">NPWP</label>
                                                     </div>
+                                                    <!-- <div class="col-12 col-md-9">
+                                                        <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
+                                                    </div> -->
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="npwp-manager" name="npwp-manager" class="form-control">
+                                                        <label for="password-input"
+                                                            class=" form-control-label">09.254.231.1-503.000</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="softskills-manager" class=" form-control-label">Softskills</label>
+                                                        <label for="password-input"
+                                                            class=" form-control-label">Softskills</label>
                                                     </div>
+                                                    <!-- <div class="col-12 col-md-9">
+                                                        <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
+                                                    </div> -->
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="softskills-manager" name="softskills-manager" class="form-control">
+                                                        <label for="password-input" class=" form-control-label">Rasa
+                                                            ingin tahu, kreatif, inovatif, Kemampuan beradaptasi, Kerja
+                                                            sama dan kolaborasi</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="hardskills-manager" class=" form-control-label">Hardskills</label>
+                                                        <label for="password-input"
+                                                            class=" form-control-label">Hardskills</label>
                                                     </div>
+                                                    <!-- <div class="col-12 col-md-9">
+                                                        <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
+                                                    </div> -->
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="hardskills-manager" name="hardskills-manager" class="form-control">
+                                                        <label for="password-input" class=" form-control-label">Bahasa
+                                                            inggris, jerman, jepang, dan Up To Date Terhadap Teknologi
+                                                            Software</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="email-manager" class=" form-control-label">Email</label>
+                                                        <label for="password-input"
+                                                            class=" form-control-label">Email</label>
                                                     </div>
+                                                    <!-- <div class="col-12 col-md-9">
+                                                        <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
+                                                    </div> -->
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="email-manager" name="email-manager" class="form-control">
+                                                        <label for="password-input"
+                                                            class=" form-control-label">veroo00@gmail.com</label>
                                                     </div>
                                                 </div>
                                             </form>
                                         </div>
                                         <div class="card-footer">
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">
-                                                <i class="fa fa-pencil-square"></i> Edit Profile
-                                            </button>
+                                            <a href="karyawan-edit-profile.html" class="btn btn-primary">
+                                                <i class="fa fa-pencil-square"></i> Edit Profil
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -266,28 +343,6 @@
         </div>
         <!-- END MAIN CONTENT-->
         <!-- END PAGE CONTAINER-->
-    </div>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Edit Profile</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <label for="recipient-name" class="col-form-label">Yakin edit profile?</label>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-                    <button type="button" class="btn btn-primary">Edit</button>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!-- Jquery JS-->
