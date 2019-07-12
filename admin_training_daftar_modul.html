@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Dashboard | HRD</title>
+    <title>Training | Daftar Modul</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -29,6 +29,7 @@
     <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
     <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
     <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+    <link href="vendor/DataTables/datatables.min.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
@@ -57,33 +58,47 @@
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li>
-                            <a href="#">
-                                <i class="fas fa-chart-bar"></i>Karyawan</a>
+                            <a href="admin_karyawan_em.html">
+                                <i class="fas fa-chart-bar"></i>Employee</a>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="#">Plan</a>
+                                    <a href="admin_form_training_plan.html">Plan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Modul</a>
+                                    <a href="admin_training_daftar_penilaian.html">Penilaian</a>
                                 </li>
                                 <li>
-                                    <a href="#">Sertifikat</a>
+                                    <a href="admin_training_daftar_modul.html">Modul</a>
                                 </li>
                                 <li>
-                                    <a href="#">Request</a>
+                                    <a href="admin_training_laporan.html">Laporan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Laporan</a>
+                                    <a href="admin_training_daftar_sertifikat.html">Sertifikat</a>
+                                </li>
+                                <li>
+                                    <a href="admin_training_request.html">Request</a>
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i class="zmdi zmdi-power"></i>Logout</a>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-desktop"></i>Master</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="admin_master_jabatan.html">Jabatan</a>
+                                </li>
+                                <li>
+                                    <a href="admin_master_spesifikasi_training.html">Trainig Type</a>
+                                </li>
+                                <li>
+                                    <a href="admin_master_department.html">Department</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -101,39 +116,53 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active">
-                            <a class="js-arrow" href="hrd.html">
+                        <li>
+                            <a class="js-arrow" href="admin.html">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class="fas fa-chart-bar"></i>Karyawan</a>
+                            <a href="admin_karyawan_em.html">
+                                <i class="fas fa-chart-bar"></i>Employee</a>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="#">Plan</a>
+                                    <a href="admin_form_training_plan.html">Plan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Modul</a>
+                                    <a href="admin_training_daftar_penilaian.html">Penilaian</a>
+                                </li>
+                                <li class="active">
+                                    <a href="admin_training_daftar_modul.html">Modul</a>
                                 </li>
                                 <li>
-                                    <a href="#">Sertifikat</a>
+                                    <a href="admin_training_laporan.html">Laporan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Request</a>
+                                    <a href="admin_training_daftar_sertifikat.html">Sertifikat</a>
                                 </li>
                                 <li>
-                                    <a href="#">Laporan</a>
+                                    <a href="admin_training_request.html">Request</a>
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">
-                                <i class="zmdi zmdi-power"></i>Logout</a>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-desktop"></i>Master</a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="admin_master_jabatan.html">Jabatan</a>
+                                </li>
+                                <li>
+                                    <a href="admin_master_spesifikasi_training.html">Trainig Type</a>
+                                </li>
+                                <li>
+                                    <a href="admin_master_department.html">Department</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </nav>
@@ -157,7 +186,7 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">HRD</a>
+                                            <a class="js-acc-btn" href="#">Admin</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -168,9 +197,9 @@
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">HRD</a>
+                                                        <a href="#">Admin</a>
                                                     </h5>
-                                                    <span class="email">What a good day, HRD</span>
+                                                    <span class="email">What a good day, Admin</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -197,31 +226,61 @@
             <div class="main-content">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
-                        <div class="row m-t-25">
+                        <div class="row m-t-5">
                             <div class="col-lg-12">
                                 <div class="au-card au-card--no-shadow au-card--no-pad m-b-40">
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Member yang berulang tahun hari ini</h3>
+                                            <i class="zmdi zmdi-account-calendar"></i>Daftar Modul Training
+                                        </h3>
                                     </div>
                                     <div class="au-task js-list-load">
-                                        <div class="au-task-list js-scrollbar3">
-                                            <div class="au-task__item">
-                                                <div class="au-task__item-inner">
-                                                    <div class="au-message__item-text">
-                                                        <div class="avatar-wrap">
-                                                            <div class="avatar">
-                                                                <img src="images/icon/avatar-02.jpg" alt="John Smith">
-                                                            </div>
-                                                        </div>
-                                                        <div class="text">
-                                                            <h5 class="name">John Smith</h5>
-                                                            <p>21 November 1999</p>
-                                                        </div>
-                                                    </div>
+                                        <div class="card-body card-block">
+                                            <a href="#" type="submit" class="btn btn-primary btn-sm">
+                                                <i class="fa fa-plus-circle" aria-hidden="true"></i> Tambah Data
+                                            </a>
+
+                                            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                                <!-- DATA TABLE-->
+                                                <div class="table-responsive m-b-40">
+                                                    <table class="table table-borderless table-data3" id="tabelDaftarModul">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Kompetensi Training</th>
+                                                                <th>Nama Training</th>
+                                                                <th>File Training</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>...</td>
+                                                                <th>...</th>
+                                                                <td>
+
+                                                                    <a type="submit" class="btn btn-primary btn-sm" href="#">
+                                                                        <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
+                                                                    </a>
+                                                                    <!-- <button type="submit" class="btn btn-primary btn-sm">
+                                                                        <i class="fa fa-dot-circle-o"></i> Hapus
+                                                                    </button>
+                                                                    
+
+                                                                    <!-- Button trigger modal -->
+                                                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
+                                                                        <i class="fa fa-trash" aria-hidden="true"></i> Hapus
+                                                                    </button>
+
+
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
                                                 </div>
-                                            </div>
+                                                <!-- END DATA TABLE-->
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
@@ -230,10 +289,31 @@
                     </div>
                 </div>
             </div>
-            <!-- END MAIN CONTENT-->
-            <!-- END PAGE CONTAINER-->
         </div>
+        <!-- END MAIN CONTENT-->
+        <!-- END PAGE CONTAINER-->
+    </div>
 
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Hapus</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    Hapus data ini?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Hapus</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Jquery JS-->
@@ -254,11 +334,18 @@
     <script src="vendor/circle-progress/circle-progress.min.js"></script>
     <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
     <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js">
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/DataTables/datatables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#tabelDaftarModul').DataTable();
+        });
     </script>
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
+
+
 
 </body>
 

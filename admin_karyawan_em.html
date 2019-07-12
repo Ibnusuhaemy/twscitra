@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Profile</title>
+    <title>Employee | Karyawan</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -29,6 +29,7 @@
     <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
     <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
     <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+    <link href="vendor/DataTables/datatables.min.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
@@ -57,7 +58,7 @@
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li>
-                            <a href="#">
+                            <a href="admin_karyawan_em.html">
                                 <i class="fas fa-chart-bar"></i>Employee</a>
                         </li>
                         <li class="has-sub">
@@ -65,22 +66,22 @@
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="#">Plan</a>
+                                    <a href="admin_form_training_plan.html">Plan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Penilaian</a>
+                                    <a href="admin_training_daftar_penilaian.html">Penilaian</a>
                                 </li>
                                 <li>
-                                    <a href="#">Modul</a>
+                                    <a href="admin_training_daftar_modul.html">Modul</a>
                                 </li>
                                 <li>
-                                    <a href="#">Laporan</a>
+                                    <a href="admin_training_laporan.html">Laporan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Sertifikat</a>
+                                    <a href="admin_training_daftar_sertifikat.html">Sertifikat</a>
                                 </li>
                                 <li>
-                                    <a href="#">Request</a>
+                                    <a href="admin_training_request.html">Request</a>
                                 </li>
                             </ul>
                         </li>
@@ -89,13 +90,13 @@
                                 <i class="fas fa-desktop"></i>Master</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
-                                    <a href="#">Jabatan</a>
+                                    <a href="admin_master_jabatan.html">Jabatan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Trainig Type</a>
+                                    <a href="admin_master_spesifikasi_training.html">Trainig Type</a>
                                 </li>
                                 <li>
-                                    <a href="#">Department</a>
+                                    <a href="admin_master_department.html">Department</a>
                                 </li>
                             </ul>
                         </li>
@@ -116,12 +117,12 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li>
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="admin.html">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="active">
+                            <a href="admin_karyawan_em.html">
                                 <i class="fas fa-chart-bar"></i>Employee</a>
                         </li>
                         <li class="has-sub">
@@ -129,22 +130,22 @@
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="#">Plan</a>
+                                    <a href="admin_form_training_plan.html">Plan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Penilaian</a>
+                                    <a href="admin_training_daftar_penilaian.html">Penilaian</a>
                                 </li>
                                 <li>
-                                    <a href="#">Modul</a>
+                                    <a href="admin_training_daftar_modul.html">Modul</a>
                                 </li>
                                 <li>
-                                    <a href="#">Laporan</a>
+                                    <a href="admin_training_laporan.html">Laporan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Sertifikat</a>
+                                    <a href="admin_training_daftar_sertifikat.html">Sertifikat</a>
                                 </li>
                                 <li>
-                                    <a href="#">Request</a>
+                                    <a href="admin_training_request.html">Request</a>
                                 </li>
                             </ul>
                         </li>
@@ -153,13 +154,13 @@
                                 <i class="fas fa-desktop"></i>Master</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="#">Jabatan</a>
+                                    <a href="admin_master_jabatan.html">Jabatan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Trainig Type</a>
+                                    <a href="admin_master_spesifikasi_training.html">Training Type</a>
                                 </li>
                                 <li>
-                                    <a href="#">Department</a>
+                                    <a href="admin_master_department.html">Department</a>
                                 </li>
                             </ul>
                         </li>
@@ -185,7 +186,7 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">admin</a>
+                                            <a class="js-acc-btn" href="#">Admin</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -231,41 +232,64 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Profile
+                                            <i class="zmdi zmdi-account-calendar"></i>Karyawan
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
-                                                <div class="row form-group">
-                                                    <div class="col col-md-3">
-                                                        <label for="username" class=" form-control-label">Username</label>
-                                                    </div>
-                                                    <!-- <div class="col-12 col-md-9">
-                                                        <input type="text" id="username" name="username" placeholder="" class="form-control">
-                                                    </div> -->
-                                                    <div class="col-12 col-md-9">
-                                                        <label for="username" class=" form-control-label">Veroo</label>
-                                                    </div>
-                                                </div>
+                                            <a href="form_karyawan.html" type="submit" class="btn btn-primary btn-sm">
+                                                <i class="fa fa-plus-circle" aria-hidden="true"></i> Tambah Data
+                                            </a>
 
-                                                <div class="row form-group">
-                                                    <div class="col col-md-3">
-                                                        <label for="password-input" class=" form-control-label">Password</label>
-                                                    </div>
-                                                    <!-- <div class="col-12 col-md-9">
-                                                        <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
-                                                    </div> -->
-                                                    <div class="col-12 col-md-9">
-                                                        <label for="password-input" class=" form-control-label">********</label>
-                                                    </div>
+                                            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                                <!-- DATA TABLE-->
+                                                <div class="table-responsive m-b-40">
+                                                    <table class="table table-borderless table-data3" id="tabelKaryawan">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>ID</th>
+                                                                <th>Name</th>
+                                                                <th>NIK</th>
+                                                                <th>Email</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>01</td>
+                                                                <td>Veroooooooooooooo</td>
+                                                                <td>098723806739872</td>
+                                                                <td>veroooo@gmail.com</td>
+                                                                <td>
+                                                                    <button type="submit" class="btn btn-primary btn-sm">
+                                                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Detail
+                                                                    </button>
+                                                                    <a type="submit" class="btn btn-primary btn-sm" href="form_karyawan.html">
+                                                                        <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
+                                                                    </a>
+                                                                    <!-- <button type="submit" class="btn btn-primary btn-sm">
+                                                                        <i class="fa fa-dot-circle-o"></i> Hapus
+                                                                    </button>
+                                                                    <button type="submit" class="btn btn-primary btn-sm">
+                                                                    <i class="fa fa-dot-circle-o"></i> Reset Password
+                                                                    </button> -->
+
+                                                                    <!-- Button trigger modal hapus-->
+                                                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
+                                                                        <i class="fa fa-trash" aria-hidden="true"></i> Hapus
+                                                                    </button>
+
+                                                                    <!-- Button trigger modal reset password-->
+                                                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleReset">
+                                                                        <i class="fa fa-undo" aria-hidden="true"></i> Reset Password
+                                                                    </button>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
                                                 </div>
+                                                <!-- END DATA TABLE-->
                                             </form>
-                                        </div>
-                                        <div class="card-footer">
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">
-                                                <i class="fa fa-dot-circle-o"></i> Edit Password
-                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -279,26 +303,43 @@
         <!-- END PAGE CONTAINER-->
     </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+    </div>
+
+    <!-- Modal hapus-->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Edit Password</h5>
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Hapus</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Hapus data ini?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Hapus</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal reset password -->
+    <div class="modal fade" id="exampleReset" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Reset Password</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                 </div>
                 <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="recipient-name" class="col-form-label">Edit password</label>
-                            <input type="text" class="form-control" id="recipient-name">
-                        </div>
-                    </form>
+                    Reset password user ini?
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-primary">Reset Password</button>
                 </div>
             </div>
         </div>
@@ -322,11 +363,18 @@
     <script src="vendor/circle-progress/circle-progress.min.js"></script>
     <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
     <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js">
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/DataTables/datatables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#tabelKaryawan').DataTable();
+        });
     </script>
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
+
+
 
 </body>
 
