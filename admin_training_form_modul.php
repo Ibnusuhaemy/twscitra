@@ -67,77 +67,63 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Daftar Modul Training
+                                            <i class="zmdi zmdi-account-calendar"></i>Form Modul Training
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <a href="admin_training_form_modul.php" type="submit" class="btn btn-primary btn-sm">
-                                                <i class="fa fa-plus-circle" aria-hidden="true"></i> Tambah Data
-                                            </a>
-
                                             <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
-                                                <!-- DATA TABLE-->
-                                                <div class="table-responsive m-b-40">
-                                                    <table class="table table-borderless table-data3" id="tabelDaftarModul">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>Kompetensi Training</th>
-                                                                <th>Nama Training</th>
-                                                                <th>File Training</th>
-                                                                <th>Action</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>...</td>
-                                                                <td>...</td>
-                                                                <th>...</th>
-                                                                <td>
-
-                                                                    <a type="submit" class="btn btn-primary btn-sm" href="admin_training_form_modul.php">
-                                                                        <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
-                                                                    </a>
-                                                                    <!-- <button type="submit" class="btn btn-primary btn-sm">
-                                                                        <i class="fa fa-dot-circle-o"></i> Hapus
-                                                                    </button>
-                                                                    
-
-                                                                    <!-- Button trigger modal -->
-                                                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
-                                                                        <i class="fa fa-trash" aria-hidden="true"></i> Hapus
-                                                                    </button>
-
-
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="spesifikasi" class=" form-control-label">Spesifikasi Training</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                              Dropdown
+                                                            </button>
+                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                                <button class="dropdown-item" type="button">Action</button>
+                                                                <button class="dropdown-item" type="button">Another action</button>
+                                                                <button class="dropdown-item" type="button">Something else here</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <!-- END DATA TABLE-->
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="nama" class=" form-control-label">Nama Training</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                              Dropdown
+                                                            </button>
+                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                                <button class="dropdown-item" type="button">Nama Training 1</button>
+                                                                <button class="dropdown-item" type="button">Nama Training 2</button>
+                                                                <button class="dropdown-item" type="button">Nama Training 3</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="file" class=" form-control-label">File Training</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <input type="file" id="file" name="file" class="form-control-file">
+                                                    </div>
+                                                </div>
                                             </form>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button type="submit" class="btn btn-primary btn-sm">
+                                                <i class="fa fa-dot-circle-o"></i> Submit
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalCenterTitle">Hapus</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                            </div>
-                            <div class="modal-body">
-                                Hapus data ini?
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Hapus</button>
                             </div>
                         </div>
                     </div>
