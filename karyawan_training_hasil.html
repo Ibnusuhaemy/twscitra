@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Training | Request</title>
+    <title>Hasil Training | Profile</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -58,47 +58,28 @@
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li>
-                            <a href="admin_karyawan_em.html">
-                                <i class="fas fa-chart-bar"></i>Employee</a>
+                            <a class="js-arrow" href="karyawan.html">
+                                <i class="fas fa-tachometer-alt"></i> Dashboard
+                            </a>
                         </li>
-                        <li class="has-sub">
+                        <li class="has-sub active" >
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="admin_form_training_plan.html">Plan</a>
+                                    <a href="karyawan_training_penugasan.html">Penugasan Training</a>
                                 </li>
                                 <li>
-                                    <a href="admin_training_daftar_penilaian.html">Penilaian</a>
+                                    <a href="karyawan_training_request.html">Training Request</a>
                                 </li>
-                                <li>
-                                    <a href="admin_training_daftar_modul.html">Modul</a>
-                                </li>
-                                <li>
-                                    <a href="admin_training_laporan.html">Laporan</a>
-                                </li>
-                                <li>
-                                    <a href="admin_training_daftar_sertifikat.html">Sertifikat</a>
-                                </li>
-                                <li>
-                                    <a href="admin_training_request.html">Request</a>
+                                <li class="active">
+                                    <a href="karyawan_training_hasil.html">Hasil Training</a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-desktop"></i>Master</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                <li>
-                                    <a href="admin_master_jabatan.html">Jabatan</a>
-                                </li>
-                                <li>
-                                    <a href="admin_master_spesifikasi_training.html">Trainig Type</a>
-                                </li>
-                                <li>
-                                    <a href="admin_master_department.html">Department</a>
-                                </li>
-                            </ul>
+                        <li>
+                            <a href="login.html">
+                                <i class="fas fa-arrow-alt-circle-left"></i>Logout</a>
                         </li>
                     </ul>
                 </div>
@@ -117,52 +98,28 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li>
-                            <a class="js-arrow" href="admin.html">
+                            <a class="js-arrow" href="karyawan.html">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
                         </li>
-                        <li>
-                            <a href="admin_karyawan_em.html">
-                                <i class="fas fa-chart-bar"></i>Employee</a>
-                        </li>
-                        <li class="has-sub">
+                        <li class="has-sub active">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="admin_form_training_plan.html">Plan</a>
+                                    <a href="karyawan_training_penugasan.html">Penugasan Training</a>
                                 </li>
                                 <li>
-                                    <a href="admin_training_daftar_penilaian.html">Penilaian</a>
-                                </li>
-                                <li>
-                                    <a href="admin_training_daftar_modul.html">Modul</a>
-                                </li>
-                                <li>
-                                    <a href="admin_training_laporan.html">Laporan</a>
-                                </li>
-                                <li>
-                                    <a href="admin_training_daftar_sertifikat.html">Sertifikat</a>
+                                    <a href="karyawan_training_request.html">Training Request</a>
                                 </li>
                                 <li class="active">
-                                    <a href="admin_training_request.html">Request</a>
+                                    <a href="karyawan_training_hasil.html">Hasil Training</a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="has-sub">
-                            <a class="js-arrow" href="#">
-                                <i class="fas fa-desktop"></i>Master</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
-                                    <a href="admin_master_jabatan.html">Jabatan</a>
-                                </li>
-                                <li>
-                                    <a href="admin_master_spesifikasi_training.html">Trainig Type</a>
-                                </li>
-                                <li>
-                                    <a href="admin_master_department.html">Department</a>
-                                </li>
-                            </ul>
+                        <li>
+                            <a href="login.html">
+                                <i class="fas fa-arrow-alt-circle-left"></i>Logout</a>
                         </li>
                     </ul>
                 </nav>
@@ -186,7 +143,7 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">Admin</a>
+                                            <a class="js-acc-btn" href="#">Karyawan</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -197,14 +154,14 @@
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">Admin</a>
+                                                        <a href="#">Karyawan</a>
                                                     </h5>
-                                                    <span class="email">What a good day, Admin</span>
+                                                    <span class="email">What a good day, karyawan</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="profile.html">
+                                                    <a href="karyawan-profile.html">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>
@@ -232,43 +189,44 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Training Request
+                                            <i class="zmdi zmdi-account-calendar"></i>Hasil Training
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <!-- <a href="#" type="submit" class="btn btn-primary btn-sm">
-                                                <i class="fa fa-plus-circle" aria-hidden="true"></i> Tambah Data
-                                            </a> -->
-
-                                            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
-                                                <!-- DATA TABLE-->
-                                                <div class="table-responsive m-b-40">
-                                                    <table class="table table-borderless table-data3" id="tabelDaftarModul">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>Nama Karyawan</th>
-                                                                <th>Departemen</th>
-                                                                <th>Jabatan</th>
-                                                                <th>Kompetensi</th>
-                                                                <th>Nama Training</th>
-                                                                <th>Status</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>Karyawan 1</td>
-                                                                <td>...</td>
-                                                                <td>...</td>
-                                                                <td>...</td>
-                                                                <td>...</td>
-                                                                <td>disetujui</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                <!-- END DATA TABLE-->
-                                            </form>
+                                            <div class="table-responsive">
+                                                <table class="table table-borderless table-data3" id="tabelPenugasan">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Kompetensi</th>
+                                                            <th>Nama Training</th>
+                                                            <th>Standar Kompetensi</th>
+                                                            <th>Nilai Training</th>
+                                                            <th>Status</th>
+                                                            <th>Sertifikat</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Marketing</td>
+                                                            <td>Training Marketing</td>
+                                                            <td>Junior Marketer</td>
+                                                            <td>4</td>
+                                                            <td>Lulus</td>
+                                                            <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Marketing</td>
+                                                            <td>Training Marketing</td>
+                                                            <td>Junior Marketer</td>
+                                                            <td>3</td>
+                                                            <td>Belum Lulus</td>
+                                                            <td>-</td>
+                                                        </tr>
+                                                        
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -281,10 +239,6 @@
         <!-- END MAIN CONTENT-->
         <!-- END PAGE CONTAINER-->
     </div>
-
-    </div>
-
-
 
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>
@@ -304,18 +258,17 @@
     <script src="vendor/circle-progress/circle-progress.min.js"></script>
     <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
     <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/select2/select2.min.js">
+    </script>
     <script src="vendor/DataTables/datatables.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            $('#tabelDaftarModul').DataTable();
+            $('#tabelPenugasan').DataTable();
         });
     </script>
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
-
-
 
 </body>
 

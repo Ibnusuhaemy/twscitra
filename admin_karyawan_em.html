@@ -261,9 +261,15 @@
                                                                 <td>098723806739872</td>
                                                                 <td>veroooo@gmail.com</td>
                                                                 <td>
-                                                                    <button type="submit" class="btn btn-primary btn-sm">
+                                                                    <!-- Button trigger modal -->
+                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
                                                                         <i class="fa fa-info-circle" aria-hidden="true"></i> Detail
                                                                     </button>
+
+                                                                    <!-- <button type="submit" class="btn btn-primary btn-sm">
+                                                                        <i class="fa fa-info-circle" aria-hidden="true"></i> Detail
+                                                                    </button> -->
+
                                                                     <a type="submit" class="btn btn-primary btn-sm" href="form_karyawan.html">
                                                                         <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
                                                                     </a>
@@ -303,6 +309,89 @@
         <!-- END PAGE CONTAINER-->
     </div>
 
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Detail</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row form-group">
+                        <div class="col col-md-3">
+                            <label for="namaKaryawan" class=" form-control-label">Nama Karyawan</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <label for="" class=" form-control-label">Nama Karyawan 1</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col col-md-3">
+                            <label for="jabatan" class=" form-control-label">Jabatan</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <label for="" class=" form-control-label">...</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col col-md-3">
+                            <label for="tanggal" class=" form-control-label">Tanggal Direkrut</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <label for="" class=" form-control-label">...</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col col-md-3">
+                            <label for="nik" class=" form-control-label">NIK</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <label for="" class=" form-control-label">...</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col col-md-3">
+                            <label for="npwp" class=" form-control-label">NPWP</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <label for="" class=" form-control-label">...</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col col-md-3">
+                            <label for="softskills" class=" form-control-label">Softskills</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <label for="" class=" form-control-label">...</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col col-md-3">
+                            <label for="hardskills" class=" form-control-label">Hardskills</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <label for="" class=" form-control-label">...</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col col-md-3">
+                            <label for="email" class=" form-control-label">Email</label>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <label for="" class=" form-control-label">...</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Modal hapus-->
