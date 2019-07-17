@@ -75,7 +75,7 @@
                                             <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="name" class=" form-control-label">Name</label>
+                                                        <label for="name" class=" form-control-label">Nama</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <input type="text" id="name" name="name" placeholder="" class="form-control">
@@ -83,7 +83,7 @@
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="date_birth" class=" form-control-label">Date of Birth</label>
+                                                        <label for="date_birth" class=" form-control-label">Tanggal Lahir</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <input type="date" id="birth" name="dateBirth" placeholder="" class="form-control">
@@ -104,7 +104,7 @@
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="date_hired" class=" form-control-label">Date Hired</label>
+                                                        <label for="date_hired" class=" form-control-label">Tanggal Direkrut</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <input type="date" id="hired" name="dateHired" placeholder="" class="form-control">
@@ -112,7 +112,7 @@
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="address" class=" form-control-label">Address</label>
+                                                        <label for="address" class=" form-control-label">Alamat</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <textarea name="address" id="address" rows="9" placeholder="" class="form-control"></textarea>

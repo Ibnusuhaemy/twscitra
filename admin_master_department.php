@@ -67,7 +67,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Department
+                                            <i class="zmdi zmdi-account-calendar"></i>Departemen
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
@@ -84,7 +84,7 @@
                                                             <tr>
                                                                 <th>Nomor Urut</th>
                                                                 <th>ID</th>
-                                                                <th>Nama Department</th>
+                                                                <th>Nama Departemen</th>
                                                                 <th>Action</th>
                                                             </tr>
                                                         </thead>

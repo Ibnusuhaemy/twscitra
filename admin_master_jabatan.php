@@ -98,7 +98,7 @@
                                                                     <a type="submit" class="btn btn-primary btn-sm" href="form_jabatan.html">
                                                                         <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
                                                                     </a>
-                                                                    <!-- <button type="submit" class="btn btn-primary btn-sm">
+                                                                    <!-- <button ="submit" class="btn btn-primary btn-sm">
                                                                         <i class="fa fa-dot-circle-o"></i> Hapus
                                                                     </button>
                                                                     

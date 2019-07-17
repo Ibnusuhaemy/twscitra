@@ -13,7 +13,7 @@
                         <div class="login-form">
                             <form action="admin.html" method="post">
                                 <div class="form-group">
-                                    <label>Username</label>
+                                    <label>Nama Pengguna</label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
                                 </div>
                                 <div class="form-group">

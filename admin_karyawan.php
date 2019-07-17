@@ -83,7 +83,7 @@
                                                         <thead>
                                                             <tr>
                                                                 <th>ID</th>
-                                                                <th>Name</th>
+                                                                <th>Nama</th>
                                                                 <th>NIK</th>
                                                                 <th>Email</th>
                                                                 <th>Action</th>

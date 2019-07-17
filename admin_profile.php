@@ -75,7 +75,7 @@
                                             <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="username" class=" form-control-label">Username</label>
+                                                        <label for="username" class=" form-control-label">Nama Pengguna</label>
                                                     </div>
                                                     <!-- <div class="col-12 col-md-9">
                                                         <input type="text" id="username" name="username" placeholder="" class="form-control">

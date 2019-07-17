@@ -29,13 +29,13 @@
                                     <a href="#">Plan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Module</a>
+                                    <a href="#">Modul</a>
                                 </li>
                                 <li>
-                                    <a href="#">Report</a>
+                                    <a href="#">Laporan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Certificate</a>
+                                    <a href="#">Sertifikat</a>
                                 </li>
                                 <li>
                                     <a href="#">Request</a>
@@ -53,7 +53,7 @@
                                     <a href="master_training_type.html">Trainig Type</a>
                                 </li>
                                 <li>
-                                    <a href="master_department.html">Department</a>
+                                    <a href="master_department.html">Departemen</a>
                                 </li>
                             </ul>
                         </li>
@@ -90,13 +90,13 @@
                                     <a href="#">Plan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Module</a>
+                                    <a href="#">Modul</a>
                                 </li>
                                 <li>
-                                    <a href="#">Report</a>
+                                    <a href="#">Laporan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Certificate</a>
+                                    <a href="#">Sertifikat</a>
                                 </li>
                                 <li>
                                     <a href="#">Request</a>
@@ -114,7 +114,7 @@
                                     <a href="master_training_type.html">Trainig Type</a>
                                 </li>
                                 <li>
-                                    <a href="master_department.html">Department</a>
+                                    <a href="master_department.html">Departemen</a>
                                 </li>
                             </ul>
                         </li>

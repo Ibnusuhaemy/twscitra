@@ -67,7 +67,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Form Department
+                                            <i class="zmdi zmdi-account-calendar"></i>Form Departemen
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
@@ -75,7 +75,7 @@
                                             <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="id" class=" form-control-label">ID Department</label>
+                                                        <label for="id" class=" form-control-label">ID Departemen</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <input type="text" id="id" name="id" placeholder="" class="form-control">
@@ -83,7 +83,7 @@
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="nama" class=" form-control-label">Nama Department</label>
+                                                        <label for="nama" class=" form-control-label">Nama Departemen</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <input type="text" id="nama" name="nama" placeholder="" class="form-control">
