@@ -1,3 +1,7 @@
+<?php 
+    $title = "Karyawan | Admin";
+    $page = "admin_karyawan";
+?>
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
