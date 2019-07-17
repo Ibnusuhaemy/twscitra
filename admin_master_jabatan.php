@@ -1,3 +1,8 @@
+<?php 
+    $title = "Master Jabatan | Admin";
+    $page = "admin_master_jabatan";
+?>
+
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
@@ -39,7 +44,7 @@
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="profile.html">
+                                                    <a href="admin_profile.php">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>
@@ -72,7 +77,7 @@
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <a href="form_jabatan.html" type="submit" class="btn btn-primary btn-sm mb-3">
+                                            <a href="admin_master_form_jabatan.php" type="submit" class="btn btn-primary btn-sm mb-3">
                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i> Tambah Data
                                             </a>
 
@@ -95,7 +100,7 @@
                                                                 <td>...</td>
                                                                 <td>
 
-                                                                    <a type="submit" class="btn btn-primary btn-sm" href="form_jabatan.html">
+                                                                    <a type="submit" class="btn btn-primary btn-sm" href="admin_master_form_jabatan.php">
                                                                         <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
                                                                     </a>
                                                                     <!-- <button ="submit" class="btn btn-primary btn-sm">

@@ -1,6 +1,6 @@
 <?php 
     $title = "Form Karyawan | Admin";
-    $page = "admin_karyawan";
+    $page = "admin_form_karyawan";
 ?>
 <?php include 'header.php'; ?>
     
@@ -43,7 +43,7 @@
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="profile.html">
+                                                    <a href="admin_profile.php">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>

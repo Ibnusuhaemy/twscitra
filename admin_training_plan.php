@@ -1,3 +1,8 @@
+<?php 
+    $title = "Training Plan | Admin";
+    $page = "admin_training_plan";
+?>
+
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
@@ -39,7 +44,7 @@
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="profile.html">
+                                                    <a href="admin_profile.php">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>
@@ -72,7 +77,7 @@
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <a href="admin_form_training_plan.html" type="submit" class="btn btn-primary btn-sm m-b-20">
+                                            <a href="admin_training_form_plan.php" type="submit" class="btn btn-primary btn-sm m-b-20">
                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i> Tambah Data
                                             </a>
 
@@ -105,7 +110,7 @@
                                                                 <td>Pending</td>
                                                                 <td>
                                                                     <a type="submit" class="btn btn-primary btn-sm  m-b-10"
-                                                                        href="admin_form_training_plan.html">
+                                                                        href="admin_training_form_plan.php">
                                                                         <i class="fa fa-pencil-square"
                                                                             aria-hidden="true"></i> Edit
                                                                     </a>

@@ -18,27 +18,27 @@
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
                         <li class="<?php if($page=='admin_karyawan'){echo 'active';}?>">
-                            <a href="karyawan_em.html">
+                            <a href="karyawan_em.php">
                                 <i class="fas fa-chart-bar"></i>Employee</a>
                         </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                <li>
-                                    <a href="#">Plan</a>
+                                <li class="<?php if($page=='admin_training_plan'){echo 'active';}?>">
+                                    <a href="admin_training_plan.php">Plan</a>
                                 </li>
-                                <li>
-                                    <a href="#">Modul</a>
+                                <li class="<?php if($page=='admin_training_modul'){echo 'active';}?>">
+                                    <a href="admin_training_modul.php">Modul</a>
                                 </li>
-                                <li>
-                                    <a href="#">Laporan</a>
+                                <li class="<?php if($page=='admin_training_laporan'){echo 'active';}?>">
+                                    <a href="admin_training_laporan.php">Laporan</a>
                                 </li>
-                                <li>
-                                    <a href="#">Sertifikat</a>
+                                <li class="<?php if($page=='admin_training_sertifikat'){echo 'active';}?>">
+                                    <a href="admin_training_sertifikat.php">Sertifikat</a>
                                 </li>
-                                <li>
-                                    <a href="#">Request</a>
+                                <li class="<?php if($page=='admin_training_request'){echo 'active';}?>">
+                                    <a href="admin_training_request.php">Request</a>
                                 </li>
                             </ul>
                         </li>
@@ -46,14 +46,14 @@
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-desktop"></i>Master</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
-                                <li>
-                                    <a href="master_jabatan.html">Jabatan</a>
+                                <li class="<?php if($page=='admin_master_jabatan'){echo 'active';}?>">
+                                    <a href="admin_master_jabatan.php">Jabatan</a>
                                 </li>
-                                <li>
-                                    <a href="master_training_type.html">Trainig Type</a>
+                                <li class="<?php if($page=='admin_master_training_type'){echo 'active';}?>">
+                                    <a href="admin_master_training_type.php">Training Type</a>
                                 </li>
-                                <li>
-                                    <a href="master_department.html">Departemen</a>
+                                <li class="<?php if($page=='admin_master_department'){echo 'active';}?>">
+                                    <a href="admin_master_department.php">Departemen</a>
                                 </li>
                             </ul>
                         </li>
@@ -86,20 +86,20 @@
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
-                                    <a href="#">Plan</a>
+                                <li class="<?php if($page=='admin_training_plan'){echo 'active';}?>">
+                                    <a href="admin_training_plan.php">Plan</a>
                                 </li>
-                                <li>
-                                    <a href="#">Modul</a>
+                                <li class="<?php if($page=='admin_training_modul'){echo 'active';}?>">
+                                    <a href="admin_training_modul.php">Modul</a>
                                 </li>
-                                <li>
-                                    <a href="#">Laporan</a>
+                                <li class="<?php if($page=='admin_training_laporan'){echo 'active';}?>">
+                                    <a href="admin_training_laporan.php">Laporan</a>
                                 </li>
-                                <li>
-                                    <a href="#">Sertifikat</a>
+                                <li class="<?php if($page=='admin_training_sertifikat'){echo 'active';}?>">
+                                    <a href="admin_training_sertifikat.php">Sertifikat</a>
                                 </li>
-                                <li>
-                                    <a href="#">Request</a>
+                                <li class="<?php if($page=='admin_training_request'){echo 'active';}?>">
+                                    <a href="admin_training_request.php">Request</a>
                                 </li>
                             </ul>
                         </li>
@@ -107,14 +107,14 @@
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-desktop"></i>Master</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
-                                    <a href="master_jabatan.html">Jabatan</a>
+                                <li class="<?php if($page=='admin_master_jabatan'){echo 'active';}?>">
+                                    <a href="admin_master_jabatan.php">Jabatan</a>
                                 </li>
-                                <li>
-                                    <a href="master_training_type.html">Trainig Type</a>
+                                <li class="<?php if($page=='admin_master_training_type'){echo 'active';}?>">
+                                    <a href="admin_master_training_type.php">Training Type</a>
                                 </li>
-                                <li>
-                                    <a href="master_department.html">Departemen</a>
+                                <li class="<?php if($page=='admin_master_department'){echo 'active';}?>">
+                                    <a href="admin_master_department.php">Departemen</a>
                                 </li>
                             </ul>
                         </li>

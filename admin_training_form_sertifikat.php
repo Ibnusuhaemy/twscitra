@@ -1,3 +1,8 @@
+<?php 
+    $title = "Training Form Sertifikat | Admin";
+    $page = "admin_training_form_sertifikat";
+?>
+
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
@@ -39,7 +44,7 @@
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="profile.html">
+                                                    <a href="admin_profile.php">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>
@@ -100,9 +105,9 @@
                                                               Dropdown
                                                             </button>
                                                             <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                                <button class="dropdown-item" type="button">Nama Karyawan 1</button>
-                                                                <button class="dropdown-item" type="button">Nama Karyawan 2</button>
-                                                                <button class="dropdown-item" type="button">Nama Karyawan 3</button>
+                                                                <button class="dropdown-item" type="button">001</button>
+                                                                <button class="dropdown-item" type="button">002</button>
+                                                                <button class="dropdown-item" type="button">003</button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -149,7 +154,7 @@
                                             <button type="submit" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-dot-circle-o"></i> Submit
                                             </button>
-                                            <a href="training_daftar_sertifikat.html" type="submit" class="btn btn-primary btn-sm">
+                                            <a href="admin_training_sertifikat.php" type="submit" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Kembali
                                             </a>
                                         </div>

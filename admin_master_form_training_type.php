@@ -1,3 +1,8 @@
+<?php 
+    $title = "Master Form Tipe Training | Admin";
+    $page = "admin_master_form_training_type";
+?>
+
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
@@ -39,7 +44,7 @@
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="profile.html">
+                                                    <a href="admin_profile.php">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>
@@ -67,7 +72,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Form Spesifikasi Training
+                                            <i class="zmdi zmdi-account-calendar"></i>Form Tipe Training
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">

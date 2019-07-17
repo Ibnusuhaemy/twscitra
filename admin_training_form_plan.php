@@ -1,3 +1,7 @@
+<?php 
+    $title = "Training Form Plan | Admin";
+    $page = "admin_training_form_plan";
+?>
 
 <?php include 'header.php'; ?>
     
@@ -40,7 +44,7 @@
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="profile.html">
+                                                    <a href="admin_profile.php">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>

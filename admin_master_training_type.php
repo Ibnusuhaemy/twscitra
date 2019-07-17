@@ -1,3 +1,8 @@
+<?php 
+    $title = "Master Tipe Training | Admin";
+    $page = "admin_master_training_type";
+?>
+
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
@@ -39,7 +44,7 @@
                                             </div>
                                             <div class="account-dropdown__body ">
                                                 <div class="account-dropdown__item ">
-                                                    <a href="profile.html ">
+                                                    <a href="admin_profile.php">
                                                         <i class="zmdi zmdi-settings "></i>Setting</a>
                                                 </div>
                                             </div>
@@ -67,12 +72,12 @@
                                     <div class="au-card-title " style="background-image:url( 'images/bg-title-01.jpg'); ">
                                         <div class="bg-overlay bg-overlay--blue "></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar "></i>Spesifikasi Training
+                                            <i class="zmdi zmdi-account-calendar "></i>Tipe Training
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load ">
                                         <div class="card-body card-block ">
-                                            <a href="form_spesifikasi_training.html" type="submit " class="btn btn-primary btn-sm ">
+                                            <a href="admin_master_form_training_type.php" type="submit " class="btn btn-primary btn-sm ">
                                                 <i class="fa fa-plus-circle " aria-hidden="true "></i> Tambah Data
                                             </a>
 
@@ -99,7 +104,7 @@
                                                                 <td>...</td>
                                                                 <td>
 
-                                                                    <a type="submit " class="btn btn-primary btn-sm" href="form_spesifikasi_training.html">
+                                                                    <a type="submit " class="btn btn-primary btn-sm" href="admin_master_form_training_type.php">
                                                                         <i class="fa fa-pencil-square " aria-hidden="true "></i> Edit
                                                                     </a>
                                                                     <!-- <button type="submit " class="btn btn-primary btn-sm ">
@@ -108,8 +113,8 @@
                                                                     
 
                                                                     <!-- Button trigger modal -->
-                                                                    <button type="button" class="btn btn-primary btn-sm " data-toggle="modal" data-target="#exampleModalCenter">
-                                                                        <i class="fa fa-trash " aria-hidden="true "></i> Hapus
+                                                                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
+                                                                        <i class="fa fa-trash" aria-hidden="true"></i> Hapus
                                                                     </button>
 
 
@@ -123,6 +128,25 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Hapus</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                            </div>
+                            <div class="modal-body">
+                                Hapus data ini?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Hapus</button>
                             </div>
                         </div>
                     </div>
