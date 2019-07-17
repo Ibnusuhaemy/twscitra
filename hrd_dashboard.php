@@ -1,3 +1,7 @@
+<?php 
+    $title = "Dashboard | HRD";
+    $page = "hrd_dashboard";
+ ?>
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">

@@ -1,3 +1,7 @@
+<?php 
+    $title = "Dashboard | Karyawan";
+    $page = "karyawan_dashboard";
+ ?>
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">

@@ -1,3 +1,7 @@
+<?php 
+    $title = "Dashboard | Manager";
+    $page = "manager_dashboard";
+ ?>
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">

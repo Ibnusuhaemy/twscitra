@@ -46,13 +46,13 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li>
-                            <a class="js-arrow" href="manager.html">
+                        <li class="<?php if($page=='manager_dashboard'){echo 'active';}?>">
+                            <a class="js-arrow" href="manager_dashboard.php">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="<?php if($page=='manager_training_request'){echo 'active';}?>">
+                            <a href="manager_training_request.php">
                                 <i class="fas fa-chart-bar"></i>Training Request</a>
                         </li>
                         <li>

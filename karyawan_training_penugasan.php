@@ -1,3 +1,7 @@
+<?php 
+    $title = "Penugasan Training | Karyawan";
+    $page = "karyawan_training_penugasan";
+ ?>
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">

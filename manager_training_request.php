@@ -1,3 +1,7 @@
+<?php 
+    $title = "Training Request | Manager";
+    $page = "manager_training_request";
+ ?>
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">

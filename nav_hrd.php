@@ -21,7 +21,7 @@
                             <a href="#">
                                 <i class="fas fa-chart-bar"></i>Karyawan</a>
                         </li>
-                        <li class="has-sub">
+                        <li class="has-sub <?php if($page=='hrd_karyawan'){echo 'active';}?>>
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
@@ -62,13 +62,13 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active">
-                            <a class="js-arrow" href="hrd.html">
+                        <li class="<?php if($page=='hrd_dashboard'){echo 'active';}?>">
+                            <a class="js-arrow" href="hrd_dashboard.php">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
+                        <li class="<?php if($page=='hrd_karyawan'){echo 'active';}?>">
+                            <a href="hrd_karyawan.php">
                                 <i class="fas fa-chart-bar"></i>Karyawan</a>
                         </li>
                         <li class="has-sub">

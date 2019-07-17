@@ -208,7 +208,7 @@
                                             </form>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="karyawan-edit-profile.html" class="btn btn-primary">
+                                            <a href="karyawan_edit_profile.php" class="btn btn-primary">
                                                 <i class="fa fa-pencil-square"></i> Edit Profil
                                             </a>
                                         </div>

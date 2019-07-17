@@ -1,3 +1,7 @@
+<?php 
+    $title = "Karyawan | HRD";
+    $page = "hrd_karyawan";
+ ?>
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">

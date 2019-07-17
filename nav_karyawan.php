@@ -17,7 +17,7 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li class="active">
+                        <li class="<?php if($page=='karyawan_dashboard'){echo 'active';}?>">
                             <a class="js-arrow" href="karyawan.html">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
@@ -57,8 +57,8 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active">
-                            <a class="js-arrow" href="karyawan.html">
+                        <li class="<?php if($page=='karyawan_dashboard'){echo 'active';}?>">
+                            <a class="js-arrow" href="karyawan_dashboard.php">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
                         </li>
@@ -66,14 +66,14 @@
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list" style="display:block;">
-                                <li>
-                                    <a href="karyawan_training_penugasan.html">Penugasan Training</a>
+                                <li class="<?php if($page=='karyawan_training_penugasan'){echo 'active';}?>">
+                                    <a href="karyawan_training_penugasan.php">Penugasan Training</a>
                                 </li>
-                                <li>
-                                    <a href="karyawan_training_request.html">Training Request</a>
+                                <li class="<?php if($page=='karyawan_training_request'){echo 'active';}?>">
+                                    <a href="karyawan_training_request.php">Training Request</a>
                                 </li>
-                                <li>
-                                    <a href="karyawan_training_hasil.html">Hasil Training</a>
+                                <li class="<?php if($page=='karyawan_training_hasil'){echo 'active';}?>">
+                                    <a href="karyawan_training_hasil.php">Hasil Training</a>
                                 </li>
                             </ul>
                         </li>
