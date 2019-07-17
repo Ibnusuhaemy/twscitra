@@ -1,4 +1,4 @@
-<!-- HEADER MOBILE-->
+        <!-- HEADER MOBILE-->
         <header class="header-mobile d-block d-lg-none">
             <div class="header-mobile__bar">
                 <div class="container-fluid">
@@ -23,7 +23,7 @@
                             </a>
                         </li>
                         <li class="has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow open" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
@@ -65,7 +65,7 @@
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                            <ul class="list-unstyled navbar__sub-list js-sub-list" style="display:block;">
                                 <li>
                                     <a href="karyawan_training_penugasan.html">Penugasan Training</a>
                                 </li>
