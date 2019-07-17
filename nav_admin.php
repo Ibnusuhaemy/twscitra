@@ -17,7 +17,7 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li>
+                        <li class="<?php if($page=='admin_karyawan'){echo 'active';}?>">
                             <a href="karyawan_em.html">
                                 <i class="fas fa-chart-bar"></i>Employee</a>
                         </li>
@@ -73,13 +73,13 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active">
-                            <a class="js-arrow" href="admin.html">
+                        <li class="<?php if($page=='admin_dashboard'){echo 'active';}?>">
+                            <a class="js-arrow" href="admin_dashboard.php">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
                         </li>
-                        <li>
-                            <a href="karyawan_em.html">
+                        <li class="<?php if($page=='admin_karyawan'){echo 'active';}?>">
+                            <a href="admin_karyawan.php">
                                 <i class="fas fa-chart-bar"></i>Employee</a>
                         </li>
                         <li class="has-sub">

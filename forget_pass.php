@@ -7,7 +7,7 @@
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="#">
-                                <img src="images/icon/logo.png" alt="CoolAdmin">
+                                <img src="images/logo-cls.png" alt="CoolAdmin">
                             </a>
                         </div>
                         <div class="login-form">

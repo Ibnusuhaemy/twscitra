@@ -1,3 +1,7 @@
+<?php 
+    $title = "Dashboard | Admin";
+    $page = "admin_dashboard";
+?>
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
@@ -88,7 +92,7 @@
                                             </div>
                                         </div>
                                         <div class="au-task__footer">
-                                            <button class="au-btn au-btn-load js-load-btn">load more</button>
+                                            <!-- <button class="au-btn au-btn-load js-load-btn">load more</button> -->
                                         </div>
                                     </div>
                                 </div>
