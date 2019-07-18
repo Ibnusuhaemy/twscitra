@@ -25,7 +25,7 @@
                                         <input type="checkbox" name="remember">Remember Me
                                     </label>
                                     <label>
-                                        <a href="#">Forgotten Password?</a>
+                                        <a href="forget_pass.php">Forgotten Password?</a>
                                     </label>
                                 </div>
                                 <div style="text-align: center;">

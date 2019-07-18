@@ -31,13 +31,13 @@
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
-                                                    <a href="#">
+                                                    <a href="hrd_profile.php">
                                                         <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">HRD</a>
+                                                        <a href="hrd_profile.php">HRD</a>
                                                     </h5>
                                                     <span class="email">What a good day, HRD</span>
                                                 </div>

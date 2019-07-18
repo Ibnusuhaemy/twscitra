@@ -26,18 +26,18 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">admin</a>
+                                            <a class="js-acc-btn" href="#">Admin</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
-                                                    <a href="#">
+                                                    <a href="admin_profile.php">
                                                         <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">Admin</a>
+                                                        <a href="admin_profile.php">Admin</a>
                                                     </h5>
                                                     <span class="email">What a good day, Admin</span>
                                                 </div>

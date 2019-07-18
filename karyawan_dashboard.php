@@ -30,13 +30,13 @@
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
-                                                    <a href="#">
+                                                    <a href="karyawan_profile.php">
                                                         <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">Karyawan</a>
+                                                        <a href="karyawan_profile.php">Karyawan</a>
                                                     </h5>
                                                     <span class="email">What a good day, Karyawan</span>
                                                 </div>
