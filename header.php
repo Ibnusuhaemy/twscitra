@@ -30,6 +30,7 @@
     <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
     <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
     <link href="vendor/DataTables/datatables.min.css" rel="stylesheet" media="all">
+    <link href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">

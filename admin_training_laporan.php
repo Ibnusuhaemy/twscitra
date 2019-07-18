@@ -122,7 +122,7 @@
 
 
                                                 <div class="row form-group ">
-                                                    <div class="col col-md-3 ">
+                                                    <div class="col col-md-6">
                                                         <div class="dropdown">
                                                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                               Pilih Kompetensi
@@ -134,7 +134,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-12 col-md-3 ">
+                                                    <div class="col-12 col-md-6">
                                                         <div class="dropdown">
                                                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                               Nomor Training
@@ -146,16 +146,16 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-12 col-md-3 ">
+                                                    <!-- <div class="col-12 col-md-3 ">
                                                         <button type="submit " class="btn btn-primary btn-sm ">
                                                             <i class="fa fa-file-pdf-o " aria-hidden="true "></i> Export to PDF
                                                         </button>
                                                     </div>
-                                                    <div class="col-12 col-md-3 ">
+                                                    <div class="col-12 col-md-4 ">
                                                         <button type="submit " class="btn btn-primary btn-sm ">
                                                             <i class="fa fa-print " aria-hidden="true "></i></i> Cetak Laporan
                                                         </button>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
 
 
