@@ -191,7 +191,7 @@
                                             </form>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="manager-edit-profile.html" class="btn btn-primary">
+                                            <a href="manager_edit_profile.php" class="btn btn-primary">
                                                 <i class="fa fa-pencil-square"></i> Edit Profile
                                             </a>
                                         </div>

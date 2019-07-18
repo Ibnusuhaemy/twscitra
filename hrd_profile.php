@@ -152,9 +152,9 @@
                                             </form>
                                         </div>
                                         <div class="card-footer">
-                                            <button type="submit" class="btn btn-primary btn-sm">
+                                            <a href="hrd_form_profile.php" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit Profil
-                                            </button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
