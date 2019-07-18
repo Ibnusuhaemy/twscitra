@@ -1,3 +1,7 @@
+<?php 
+    $title = "Profile | Karyawan";
+    $page = "karyawan_profile";
+ ?>
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
@@ -21,25 +25,25 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">karyawan</a>
+                                            <a class="js-acc-btn" href="#">Karyawan</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
-                                                    <a href="#">
+                                                    <a href="karyawan_profile.php">
                                                         <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">karyawan</a>
+                                                        <a href="karyawan_profile.php">Karyawan</a>
                                                     </h5>
-                                                    <span class="email">What a good day, karyawan</span>
+                                                    <span class="email">What a good day, Karyawan</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="karyawan-profile.html">
+                                                    <a href="Karyawan-profile.html">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>
