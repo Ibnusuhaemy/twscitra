@@ -1,3 +1,8 @@
+<?php 
+    $title = "Profil | HRD";
+    $page = "hrd_profile";
+?>
+
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
@@ -78,7 +83,7 @@
                                                         <label for="nama" class=" form-control-label">Nama</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nama" name="nama" placeholder="" class="form-control">
+                                                        <label for="" class=" form-control-label">Veroo</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -86,7 +91,7 @@
                                                         <label for="jabatan" class=" form-control-label">Jabatan</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="jabatan" name="jabatan" placeholder="" class="form-control">
+                                                        <label for="" class=" form-control-label">karyawan</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -94,7 +99,7 @@
                                                         <label for="tanggal" class=" form-control-label">Tanggal Direkrut</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="date" id="tanggal" name="tanggal" placeholder="" class="form-control">
+                                                        <label for="" class=" form-control-label">08 Desember 2019</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -102,7 +107,7 @@
                                                         <label for="alamat" class=" form-control-label">Alamat</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="alamat" name="alamat" placeholder="" class="form-control">
+                                                        <label for="" class=" form-control-label">Jalan Kenangan Abadi no.1</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -110,7 +115,7 @@
                                                         <label for="nik" class=" form-control-label">NIK</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nik" name="nik" placeholder="" class="form-control">
+                                                        <label for="" class=" form-control-label">789261849212</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -118,7 +123,7 @@
                                                         <label for="npwp" class=" form-control-label">NPWP</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="npwp" name="npwp" placeholder="" class="form-control">
+                                                        <label for="" class=" form-control-label">09.254.231.1-503.000</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -126,7 +131,7 @@
                                                         <label for="softskills" class=" form-control-label">Softskills</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="softskills" name="softskills" placeholder="" class="form-control">
+                                                        <label for="" class=" form-control-label">Rasa ingin tahu, kreatif, inovatif, Kemampuan beradaptasi, Kerja sama dan kolaborasi</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -134,7 +139,7 @@
                                                         <label for="hardskills" class=" form-control-label">Hardskills</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="hardskills" name="hardskills" placeholder="" class="form-control">
+                                                        <label for="" class=" form-control-label">Bahasa inggris, jerman, jepang, dan Up To Date Terhadap Teknologi Software</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -142,7 +147,7 @@
                                                         <label for="email" class=" form-control-label">Email</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="email" id="email" name="email" placeholder="" class="form-control">
+                                                        <label for="" class=" form-control-label">veroo00@gmail.com</label>
                                                     </div>
                                                 </div>
                                             </form>

@@ -1,3 +1,8 @@
+<?php 
+    $title = "Form Profil | HRD";
+    $page = "hrd_form_profile";
+?>
+
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
@@ -156,11 +161,11 @@
                                                 </div>
                                             </form>
                                         </div>
-                                        <!-- <div class="card-footer">
+                                        <div class="card-footer">
                                             <button type="submit" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-dot-circle-o"></i> Submit
                                             </button>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
