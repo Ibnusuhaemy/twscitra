@@ -72,7 +72,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Profile
+                                            <i class="zmdi zmdi-account-calendar"></i>Profil
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
@@ -92,7 +92,7 @@
 
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="password-input" class=" form-control-label">Password</label>
+                                                        <label for="password-input" class=" form-control-label">Kata Sandi</label>
                                                     </div>
                                                     <!-- <div class="col-12 col-md-9">
                                                         <input type="password" id="password-input" name="password-input" placeholder="" class="form-control">
@@ -105,7 +105,7 @@
                                         </div>
                                         <div class="card-footer">
                                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">
-                                                <i class="fa fa-dot-circle-o"></i> Edit Password
+                                                <i class="fa fa-dot-circle-o"></i> Edit Kata Sandi
                                             </button>
                                         </div>
                                     </div>
@@ -118,7 +118,7 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Edit Password</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Edit Kata Sandi</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -126,7 +126,7 @@
                             <div class="modal-body">
                                 <form>
                                     <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">Edit password</label>
+                                        <label for="recipient-name" class="col-form-label">Edit Kata Sandi</label>
                                         <input type="text" class="form-control" id="recipient-name">
                                     </div>
                                 </form>

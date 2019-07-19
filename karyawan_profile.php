@@ -1,5 +1,5 @@
 <?php 
-    $title = "Profile | Karyawan";
+    $title = "Profil | Karyawan";
     $page = "karyawan_profile";
  ?>
 <?php include 'header.php'; ?>

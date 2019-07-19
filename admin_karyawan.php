@@ -126,7 +126,7 @@
 
                                                                     <!-- Button trigger modal reset password-->
                                                                     <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleReset">
-                                                                        <i class="fa fa-undo" aria-hidden="true"></i> Reset Password
+                                                                        <i class="fa fa-undo" aria-hidden="true"></i> Atur Ulang Kata Sandi
                                                                     </button>
                                                                 </td>
                                                             </tr>
@@ -250,16 +250,16 @@
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalCenterTitle">Reset Password</h5>
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Atur Ulang Kata Sandi</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                             </div>
                             <div class="modal-body">
-                                Reset password user ini?
+                                Atur Ulang Kata Sandi user ini?
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Reset Password</button>
+                                <button type="button" class="btn btn-primary">Atur Ulang Kata Sandi</button>
                             </div>
                         </div>
                     </div>

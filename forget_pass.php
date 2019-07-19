@@ -1,3 +1,8 @@
+<?php 
+    $title = "Lupa Kata Sandi";
+    $page = "forget_pass";
+?>
+
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">

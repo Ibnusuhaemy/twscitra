@@ -1,5 +1,5 @@
 <?php 
-    $title = "Profile | Manager";
+    $title = "Profil | Manager";
     $page = "manager_profile";
 ?>
 <?php include 'header.php'; ?>
@@ -71,7 +71,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Profile
+                                            <i class="zmdi zmdi-account-calendar"></i>Profil
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
@@ -158,7 +158,7 @@
                                         </div>
                                         <div class="card-footer">
                                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">
-                                                <i class="fa fa-pencil-square"></i> Edit Profile
+                                                <i class="fa fa-pencil-square"></i> Edit Profil
                                             </button>
                                         </div>
                                     </div>
@@ -171,14 +171,14 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Edit Profile</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Edit Profil</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
                                 <form>
-                                    <label for="recipient-name" class="col-form-label">Yakin edit profile?</label>
+                                    <label for="recipient-name" class="col-form-label">Yakin edit profil?</label>
                                 </form>
                             </div>
                             <div class="modal-footer">

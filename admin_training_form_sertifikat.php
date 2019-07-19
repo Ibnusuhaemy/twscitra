@@ -83,33 +83,25 @@
                                                         <label for="kompetensi" class=" form-control-label">Kompetensi</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <div class="dropdown">
-                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                              Dropdown
-                                                            </button>
-                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                                <button class="dropdown-item" type="button">Action</button>
-                                                                <button class="dropdown-item" type="button">Another action</button>
-                                                                <button class="dropdown-item" type="button">Something else here</button>
-                                                            </div>
-                                                        </div>
+                                                        <select name="kompetensi" id="kompetensi" class="form-control">
+                                                            <option value="0">Pilih</option>
+                                                            <option value="1">Kompetensi 1</option>
+                                                            <option value="2">Kompetensi 2</option>
+                                                            <option value="3">Kompetensi 3</option>
+                                                        </select>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="namaKaryawan" class=" form-control-label">Nomor Training</label>
+                                                        <label for="nomor" class=" form-control-label">Nomor Training</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <div class="dropdown">
-                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                              Dropdown
-                                                            </button>
-                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                                <button class="dropdown-item" type="button">001</button>
-                                                                <button class="dropdown-item" type="button">002</button>
-                                                                <button class="dropdown-item" type="button">003</button>
-                                                            </div>
-                                                        </div>
+                                                        <select name="nomor" id="nomor" class="form-control">
+                                                            <option value="0">Pilih</option>
+                                                            <option value="1">001</option>
+                                                            <option value="2">002</option>
+                                                            <option value="3">003</option>
+                                                        </select>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -125,19 +117,15 @@
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="nomor" class=" form-control-label">Nama Karyawan</label>
+                                                        <label for="namaKaryawan" class=" form-control-label">Nama Karyawan</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <div class="dropdown">
-                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                              Dropdown
-                                                            </button>
-                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                                <button class="dropdown-item" type="button">Nama Karyawan 1</button>
-                                                                <button class="dropdown-item" type="button">Nama Karyawan 2</button>
-                                                                <button class="dropdown-item" type="button">Nama Karyawan 3</button>
-                                                            </div>
-                                                        </div>
+                                                        <select name="namaKaryawan" id="namaKaryawan" class="form-control">
+                                                            <option value="0">Pilih</option>
+                                                            <option value="1">Nama Karyawan 1</option>
+                                                            <option value="2">Nama Karyawan 2</option>
+                                                            <option value="3">Nama Karyawan 3</option>
+                                                        </select>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">

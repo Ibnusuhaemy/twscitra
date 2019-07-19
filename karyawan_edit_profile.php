@@ -1,5 +1,5 @@
 <?php 
-    $title = "Profile | Karyawan";
+    $title = "Profil | Karyawan";
     $page = "karyawan_profile";
  ?>
 <?php include 'header.php'; ?>
@@ -71,7 +71,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Profile
+                                            <i class="zmdi zmdi-account-calendar"></i>Profil
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
@@ -158,7 +158,7 @@
                                         </div>
                                         <div class="card-footer">
                                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">
-                                                <i class="fa fa-pencil-square"></i> Edit Profile
+                                                <i class="fa fa-pencil-square"></i> Edit Profil
                                             </button>
                                         </div>
                                     </div>

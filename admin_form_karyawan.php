@@ -99,10 +99,10 @@
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <select name="position" id="position" class="form-control">
-                                                            <option value="0">Please select</option>
-                                                            <option value="1">Option #1</option>
-                                                            <option value="2">Option #2</option>
-                                                            <option value="3">Option #3</option>
+                                                            <option value="0">Pilih</option>
+                                                            <option value="1">Position 1</option>
+                                                            <option value="2">Position 2</option>
+                                                            <option value="3">Position 3</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -205,11 +205,11 @@
                                                         <label for="departemen" class=" form-control-label">Departemen</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="position" id="position" class="form-control">
-                                                            <option value="0">Please select</option>
-                                                            <option value="1">Option #1</option>
-                                                            <option value="2">Option #2</option>
-                                                            <option value="3">Option #3</option>
+                                                        <select name="Jabatan" id="jabatan-karyawan" class="form-control">
+                                                            <option value="0">Pilih</option>
+                                                            <option value="1">Position 1</option>
+                                                            <option value="2">Position 2</option>
+                                                            <option value="3">Position 3</option>
                                                         </select>
                                                     </div>
                                                 </div>

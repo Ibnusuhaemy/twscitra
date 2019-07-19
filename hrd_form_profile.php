@@ -72,7 +72,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Form Profile
+                                            <i class="zmdi zmdi-account-calendar"></i>Form Profil
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
@@ -91,16 +91,12 @@
                                                         <label for="jabatan" class=" form-control-label">Jabatan</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <div class="dropdown">
-                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                              Jabatan
-                                                            </button>
-                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                                <button class="dropdown-item" type="button">Action</button>
-                                                                <button class="dropdown-item" type="button">Another action</button>
-                                                                <button class="dropdown-item" type="button">Something else here</button>
-                                                            </div>
-                                                        </div>
+                                                        <select name="Jabatan" id="jabatan" class="form-control">
+                                                            <option value="0">Pilih</option>
+                                                            <option value="1">Manager</option>
+                                                            <option value="2">Admin</option>
+                                                            <option value="3">Karyawan</option>
+                                                        </select>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">

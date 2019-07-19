@@ -1,3 +1,8 @@
+<?php 
+    $title = "Register";
+    $page = "register";
+?>
+
 <?php include 'header.php'; ?>
     
    <div class="page-wrapper">

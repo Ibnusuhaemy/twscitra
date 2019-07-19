@@ -1,14 +1,8 @@
 <?php 
-<<<<<<< HEAD
     $title = "Profil | HRD";
     $page = "hrd_profile";
 ?>
 
-=======
-    $title = "Profile | HRD";
-    $page = "hrd_profile";
- ?>
->>>>>>> cb0e4e8e79028de8976ad9bd499d3a5611615db1
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
@@ -78,7 +72,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Profile
+                                            <i class="zmdi zmdi-account-calendar"></i>Profil
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">

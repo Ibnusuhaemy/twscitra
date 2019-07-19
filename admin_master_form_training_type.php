@@ -99,16 +99,12 @@
                                                         <label for="positions" class=" form-control-label">Positions</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <div class="dropdown">
-                                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                              Dropdown
-                                                            </button>
-                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                                <button class="dropdown-item" type="button">Action</button>
-                                                                <button class="dropdown-item" type="button">Another action</button>
-                                                                <button class="dropdown-item" type="button">Something else here</button>
-                                                            </div>
-                                                        </div>
+                                                        <select name="positions" id="positions" class="form-control">
+                                                            <option value="0">Pilih</option>
+                                                            <option value="1">Position 1</option>
+                                                            <option value="2">Position 2</option>
+                                                            <option value="3">Position 3</option>
+                                                        </select>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">

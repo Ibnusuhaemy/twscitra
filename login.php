@@ -1,3 +1,8 @@
+<?php 
+    $title = "Login";
+    $page = "login";
+?>
+
 <?php include 'header.php'; ?>
     
    <div class="page-wrapper">
@@ -17,7 +22,7 @@
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
                                 </div>
                                 <div class="form-group">
-                                    <label>Password</label>
+                                    <label>Kata Sandi</label>
                                     <input class="au-input au-input--full" type="password" name="password" placeholder="Password">
                                 </div>
                                 <div class="login-checkbox">
@@ -25,7 +30,7 @@
                                         <input type="checkbox" name="remember">Remember Me
                                     </label>
                                     <label>
-                                        <a href="forget_pass.php">Forgotten Password?</a>
+                                        <a href="forget_pass.php">Forgotten Kata Sandi?</a>
                                     </label>
                                 </div>
                                 <div style="text-align: center;">
