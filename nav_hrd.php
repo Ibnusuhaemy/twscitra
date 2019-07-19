@@ -74,7 +74,7 @@
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                            <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" style="display: block;">
                                 <li>
                                     <a href="#">Plan</a>
                                 </li>

@@ -85,7 +85,7 @@
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                            <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" style="display: block;">
                                 <li class="<?php if($page=='admin_training_plan'){echo 'active';}?>">
                                     <a href="admin_training_plan.php">Plan</a>
                                 </li>
@@ -106,7 +106,7 @@
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-desktop"></i>Master</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                            <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" style="display: block;">
                                 <li class="<?php if($page=='admin_master_jabatan'){echo 'active';}?>">
                                     <a href="admin_master_jabatan.php">Jabatan</a>
                                 </li>

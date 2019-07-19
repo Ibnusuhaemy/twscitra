@@ -25,7 +25,7 @@
                         <li class="has-sub">
                             <a class="js-arrow open" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                            <ul class="list-unstyled navbar__sub-list js-sub-list" >
                                 <li>
                                     <a href="karyawan_training_penugasan.html">Penugasan Training</a>
                                 </li>
@@ -65,7 +65,7 @@
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list" style="display:block;">
+                            <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" style="display:block;">
                                 <li class="<?php if($page=='karyawan_training_penugasan'){echo 'active';}?>">
                                     <a href="karyawan_training_penugasan.php">Penugasan Training</a>
                                 </li>

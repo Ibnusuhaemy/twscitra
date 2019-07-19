@@ -94,13 +94,21 @@
                                                             <td>Marketing</td>
                                                             <td>Training Marketing</td>
                                                             <td>4 Agustus 2019</td>
-                                                            <td><button type="button" data-toggle="modal" data-target="#detailModal" class="btn btn-sm btn-primary">Detail</button> <button type="button" data-toggle="modal" data-target="#cancelModal" class="btn btn-sm btn-danger">Batal</button></td>
+                                                            <td>
+                                                                <button type="button" data-toggle="modal" data-target="#requestModal" class="btn btn-sm btn-success">Request</button>
+                                                                <button type="button" data-toggle="modal" data-target="#detailModal" class="btn btn-sm btn-primary">Detail</button>
+                                                                <button type="button" data-toggle="modal" data-target="#cancelModal" class="btn btn-sm btn-danger">Batal</button>
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <td>Marketing</td>
                                                             <td>Training Marketing</td>
                                                             <td>4 Agustus 2019</td>
-                                                            <td><button type="button" data-toggle="modal" data-target="#detailModal" class="btn btn-sm btn-primary">Detail</button> <button type="button" data-toggle="modal" data-target="#cancelModal" class="btn btn-sm btn-danger">Batal</button></td>
+                                                            <td>
+                                                                <button type="button" data-toggle="modal" data-target="#requestModal" class="btn btn-sm btn-success">Request</button>
+                                                                <button type="button" data-toggle="modal" data-target="#detailModal" class="btn btn-sm btn-primary">Detail</button>
+                                                                <button type="button" data-toggle="modal" data-target="#cancelModal" class="btn btn-sm btn-danger">Batal</button>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -196,6 +204,23 @@
                     </div>
                 </div>
                 <!-- End Cancel Modal -->
+                <!-- Request Modal -->
+                <div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-labelledby="smallmodalLabel" style="display: none;">
+                    <div class="modal-dialog modal-md" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body px-5 py-3 text-center">
+                                <p class="lead">
+                                    Apakah anda yakin ingin <strong>request</strong> training ini?
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success">Request</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Request Modal -->
             </div>
         </div>
         <!-- END MAIN CONTENT-->

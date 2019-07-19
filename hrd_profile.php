@@ -2,7 +2,10 @@
     $title = "Profil | HRD";
     $page = "hrd_profile";
 ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> f04a39b6153b1784244027bf76539f8099f82685
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
