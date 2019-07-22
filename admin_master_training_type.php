@@ -1,5 +1,6 @@
 <?php 
     $title = "Master Tipe Training | Admin";
+    $sub_master = true;
     $page = "admin_master_training_type";
 ?>
 

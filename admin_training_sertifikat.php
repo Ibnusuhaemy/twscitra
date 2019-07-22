@@ -1,5 +1,6 @@
 <?php 
     $title = "Training Sertifikat | Admin";
+    $sub_training = true;
     $page = "admin_training_sertifikat";
 ?>
 

@@ -1,5 +1,6 @@
 <?php 
     $title = "Master Departemen | Admin";
+    $sub_master = true;
     $page = "admin_master_department";
 ?>
 

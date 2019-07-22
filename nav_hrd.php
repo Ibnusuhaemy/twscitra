@@ -24,7 +24,8 @@
                         <li class="has-sub <?php if($page=='hrd_karyawan'){echo 'active';}?>>
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list" <?php if (isset($sub_training)) {
+                            echo 'style="display: block;"';}?>>
                                 <li>
                                     <a href="#">Plan</a>
                                 </li>
@@ -74,7 +75,8 @@
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
-                            <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" style="display: block;">
+                            <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" <?php if (isset($sub_training)) {
+                            echo 'style="display: block;"';}?>>
                                 <li>
                                     <a href="#">Plan</a>
                                 </li>
