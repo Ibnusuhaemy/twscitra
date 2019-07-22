@@ -50,7 +50,7 @@
                                     <a href="admin_master_jabatan.php">Jabatan</a>
                                 </li>
                                 <li class="<?php if($page=='admin_master_training_type'){echo 'active';}?>">
-                                    <a href="admin_master_training_type.php">Training Type</a>
+                                    <a href="admin_master_training_type.php">Tipe Training</a>
                                 </li>
                                 <li class="<?php if($page=='admin_master_department'){echo 'active';}?>">
                                     <a href="admin_master_department.php">Departemen</a>
@@ -111,7 +111,7 @@
                                     <a href="admin_master_jabatan.php">Jabatan</a>
                                 </li>
                                 <li class="<?php if($page=='admin_master_training_type'){echo 'active';}?>">
-                                    <a href="admin_master_training_type.php">Training Type</a>
+                                    <a href="admin_master_training_type.php">Tipe Training</a>
                                 </li>
                                 <li class="<?php if($page=='admin_master_department'){echo 'active';}?>">
                                     <a href="admin_master_department.php">Departemen</a>

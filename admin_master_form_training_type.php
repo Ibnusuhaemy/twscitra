@@ -80,7 +80,7 @@
                                             <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="id" class=" form-control-label">ID Training Type</label>
+                                                        <label for="id" class=" form-control-label">ID Tipe Training</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <input type="text" id="id" name="id" placeholder="" class="form-control">
@@ -88,7 +88,7 @@
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="trainingType" class=" form-control-label">Training Type</label>
+                                                        <label for="trainingType" class=" form-control-label">Tipe Training</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <input type="text" id="trainingType" name="trainingType" placeholder="" class="form-control">
