@@ -76,19 +76,19 @@
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" style="display: block;">
                                 <li>
-                                    <a href="#">Plan</a>
+                                    <a href="hrd_training_plan.php">Plan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Modul</a>
+                                    <a href="hrd_training_modul.php">Modul</a>
                                 </li>
                                 <li>
-                                    <a href="#">Sertifikat</a>
+                                    <a href="hrd_training_sertifikat.php">Sertifikat</a>
                                 </li>
                                 <li>
-                                    <a href="#">Request</a>
+                                    <a href="hrd_training_request.php">Request</a>
                                 </li>
                                 <li>
-                                    <a href="#">Laporan</a>
+                                    <a href="hrd_training_laporan.php">Laporan</a>
                                 </li>
                             </ul>
                         </li>
