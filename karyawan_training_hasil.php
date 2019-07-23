@@ -1,5 +1,6 @@
 <?php 
     $title = "Hasil Training | Karyawan";
+    $sub_training = true;
     $page = "karyawan_training_hasil";
  ?>
 <?php include 'header.php'; ?>

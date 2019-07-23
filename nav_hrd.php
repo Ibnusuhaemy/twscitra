@@ -17,14 +17,15 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li>
+                        <li class="<?php if($page=='hrd_karyawan'){echo 'active';}?>">
                             <a href="#">
                                 <i class="fas fa-chart-bar"></i>Karyawan</a>
                         </li>
-                        <li class="has-sub <?php if($page=='hrd_karyawan'){echo 'active';}?>>
+                        <li class="has-sub >
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
-                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list" <?php if (isset($sub_training)) {
+                            echo 'style="display: block;"';}?>>
                                 <li>
                                     <a href="#">Plan</a>
                                 </li>
@@ -66,7 +67,7 @@
                             <a class="js-arrow" href="hrd_dashboard.php">
                                 <i class="fas fa-tachometer-alt"></i> Dashboard
                             </a>
-                        </li>
+                        </li>   
                         <li class="<?php if($page=='hrd_karyawan'){echo 'active';}?>">
                             <a href="hrd_karyawan.php">
                                 <i class="fas fa-chart-bar"></i>Karyawan</a>
@@ -74,9 +75,11 @@
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
+
                             <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" style="display: block;">
                                 <li class="<?php if($page=='hrd_training_plan'){echo 'active';}?>">
                                     <a href="hrd_training_plan.php">Plan</a>
+
                                 </li>
                                 <li class="<?php if($page=='hrd_training_modul'){echo 'active';}?>">
                                     <a href="hrd_training_modul.php">Modul</a>

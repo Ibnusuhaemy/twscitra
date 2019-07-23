@@ -1,5 +1,6 @@
 <?php 
     $title = "Training Form Modul | Admin";
+    $sub_training = true;
     $page = "admin_training_form_modul";
 ?>
 

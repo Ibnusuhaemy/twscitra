@@ -1,5 +1,7 @@
 <?php 
     $title = "Training Laporan | Admin";
+    $sub_training = true;
+    $sub_master = false;
     $page = "admin_training_laporan";
 ?>
 

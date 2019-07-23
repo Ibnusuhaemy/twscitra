@@ -1,7 +1,7 @@
 <?php 
-    $title = "Training Plan | Admin";
+    $title = "Training Sertifikat | Admin";
     $sub_training = true;
-    $page = "admin_training_plan";
+    $page = "hrd_training_sertifikat";
 ?>
 
 <?php include 'header.php'; ?>
@@ -73,54 +73,83 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Training Plan
+                                            <i class="zmdi zmdi-account-calendar"></i>Daftar Sertifikat Training
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <a href="admin_training_form_plan.php" type="submit" class="btn btn-primary btn-sm m-b-20">
+                                            <a href="admin_training_form_sertifikat.php" type="submit" class="btn btn-primary btn-sm mb-3">
                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i> Tambah Data
                                             </a>
 
-                                            <form action="" method="post" enctype="multipart/form-data"
-                                                class="form-horizontal">
+                                            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
                                                 <!-- DATA TABLE-->
                                                 <div class="table-responsive m-b-40">
-                                                    <table class="table table-borderless table-data3"
-                                                        id="tabelKaryawan">
+                                                    <table class="table table-borderless table-data3" id="tabelDaftarSertifikat">
                                                         <thead>
                                                             <tr>
-                                                                <th>No. Training</th>
-                                                                <th>Spesifikasi Training</th>
-                                                                <th>Durasi</th>
-                                                                <th>Trainer</th>
-                                                                <th>Lokasi</th>
-                                                                <th>Tanggal Mulai</th>
-                                                                <th>Status</th>
+                                                                <th>Kompetensi</th>
+                                                                <th>Nama Training</th>
+                                                                <th>Nama Karyawan</th>
+                                                                <th>Link File Sertifikat</th>
                                                                 <th>Action</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
                                                             <tr>
-                                                                <td>01</td>
-                                                                <td>Belajar ngoding</td>
-                                                                <td>2 jam</td>
-                                                                <td>Rizky</td>
-                                                                <td>cafe brewok, Jl.Suhat</td>
-                                                                <td>08 Agustus 2019</td>
-                                                                <td>Pending</td>
+                                                                <td>...</td>
+                                                                <td>nama training 1</td>
+                                                                <td>nama karyawan 1</td>
                                                                 <td>
-                                                                    <a type="submit" class="btn btn-primary btn-sm  m-b-10"
-                                                                        href="admin_training_form_plan.php">
-                                                                        <i class="fa fa-pencil-square"
-                                                                            aria-hidden="true"></i> Edit
+                                                                    <!-- Trigger the modal with a button -->
+                                                                    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+                                                                   
+                                                                    <a href="vendor/ViewerJS/#../../content/sertif.pdf" target="_blank" class="btn btn-sm btn-primary">Open Document</a>
+                                                                </td>
+                                                                <td>
+
+                                                                    <a type="submit" class="btn btn-primary btn-sm" href="admin_training_form_sertifikat.php">
+                                                                        <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
                                                                     </a>
-                                                                    <!-- Button trigger modal hapus-->
-                                                                    <button type="button" class="btn btn-primary btn-sm"
-                                                                        data-toggle="modal" data-target="#staticModal">
-                                                                        <i class="fa fa-trash" aria-hidden="true"></i>
-                                                                         Hapus
+                                                                    <!-- <button type="submit" class="btn btn-primary btn-sm">
+                                                                        <i class="fa fa-dot-circle-o"></i> Hapus
                                                                     </button>
+                                                                    
+
+                                                                    <!-- Button trigger modal -->
+                                                                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteModal">
+                                                                        <i class="fa fa-trash" aria-hidden="true"></i> Hapus
+                                                                    </button>
+
+
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>...</td>
+                                                                <td>nama training 1</td>
+                                                                <td>nama karyawan 1</td>
+                                                                <td>
+                                                                    <!-- Trigger the modal with a button -->
+                                                                    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+                                                                   
+                                                                    <a href="vendor/ViewerJS/#../../content/sertif.pdf" target="_blank" class="btn btn-sm btn-primary">Open Document</a>
+                                                                </td>
+                                                                <td>
+
+                                                                    <a type="submit" class="btn btn-primary btn-sm" href="admin_training_form_sertifikat.php">
+                                                                        <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
+                                                                    </a>
+                                                                    <!-- <button type="submit" class="btn btn-primary btn-sm">
+                                                                        <i class="fa fa-dot-circle-o"></i> Hapus
+                                                                    </button>
+                                                                    
+
+                                                                    <!-- Button trigger modal -->
+                                                                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteModal">
+                                                                        <i class="fa fa-trash" aria-hidden="true"></i> Hapus
+                                                                    </button>
+
+
                                                                 </td>
                                                             </tr>
                                                         </tbody>
@@ -135,19 +164,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="staticModal" tabindex="-1" role="dialog" aria-labelledby="staticModalLabel"
-                    aria-hidden="true" data-backdrop="static">
+                <!-- Cancel Modal -->
+                <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="smallmodalLabel" style="display: none;">
                     <div class="modal-dialog modal-sm" role="document">
                         <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticModalLabel">Static Modal</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <p>
-                                    Are you sure delete this data?
+                            <div class="modal-body px-5 py-3 text-center">
+                                <p class="lead">
+                                    Hapus Data ini?
                                 </p>
                             </div>
                             <div class="modal-footer">
@@ -157,13 +180,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- end modal static -->
+                <!-- End Cancel Modal -->
             </div>
-            <!-- END MAIN CONTENT-->
-            <!-- END PAGE CONTAINER-->
+
         </div>
-        <!-- modal static -->
-        
+        <!-- END MAIN CONTENT-->
 
     </div>
 

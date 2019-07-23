@@ -1,14 +1,14 @@
 <?php 
-    $title = "Request Training | Karyawan";
+    $title = "Training plan | Karyawan";
     $sub_training = true;
-    $page = "karyawan_training_request";
+    $page = "hrd_training_plan";
  ?>
 <?php include 'header.php'; ?>
     
     <div class="page-wrapper">
 
         <!-- Navbar Admin -->
-        <?php include 'nav_karyawan.php' ?>
+        <?php include 'nav_hrd.php' ?>
         
         <!-- PAGE CONTAINER-->
         <div class="page-container">
@@ -44,7 +44,7 @@
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="karyawan_profile.php">
+                                                    <a href="Karyawan-profile.html">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>
@@ -84,31 +84,27 @@
                                                 <table class="table table-borderless table-data3" id="tabelPenugasan">
                                                     <thead>
                                                         <tr>
-                                                            <th>Kompetensi</th>
-                                                            <th>Nama Training</th>
+                                                            <th>Nomor Training</th>
+                                                            <th>Spesifikasi Training</th>
+                                                            <th>Durasi</th>
+                                                            <th>Trainer</th>
+                                                            <th>Lokasi</th>
                                                             <th>Tanggal Mulai</th>
+                                                            <th>Status</th>
                                                             <th>Action</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <td>Marketing</td>
+                                                            <td>125</td>
                                                             <td>Training Marketing</td>
+                                                            <td>15 hari</td>
+                                                            <td>Yantz</td>
+                                                            <td>Malang</td>
                                                             <td>4 Agustus 2019</td>
+                                                            <td>Status</td>
                                                             <td>
-                                                                <button type="button" data-toggle="modal" data-target="#requestModal" class="btn btn-sm btn-success">Request</button>
-                                                                <button type="button" data-toggle="modal" data-target="#detailModal" class="btn btn-sm btn-primary">Detail</button>
-                                                                <button type="button" data-toggle="modal" data-target="#cancelModal" class="btn btn-sm btn-danger">Batal</button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Marketing</td>
-                                                            <td>Training Marketing</td>
-                                                            <td>4 Agustus 2019</td>
-                                                            <td>
-                                                                <button type="button" data-toggle="modal" data-target="#requestModal" class="btn btn-sm btn-success">Request</button>
-                                                                <button type="button" data-toggle="modal" data-target="#detailModal" class="btn btn-sm btn-primary">Detail</button>
-                                                                <button type="button" data-toggle="modal" data-target="#cancelModal" class="btn btn-sm btn-danger">Batal</button>
+                                                                <button type="button" data-toggle="modal" data-target="#detailModal" class="btn btn-sm btn-primary">Penugasan</button>
                                                             </td>
                                                         </tr>
                                                     </tbody>
@@ -127,7 +123,7 @@
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="mediumModalLabel">Detail Training</h5>
+                                <h5 class="modal-title" id="mediumModalLabel">Penugasan</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">×</span>
                                 </button>
@@ -137,47 +133,26 @@
                                    <div class="col-12">
                                         <div>
                                             <p>
-                                                <strong>Kompetensi :</strong>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates aspernatur, modi vel odit perferendis doloribus tempore nobis qui perspiciatis pariatur aut fugit harum in, placeat incidunt hic, atque dolore quidem.
+                                                <strong>Daftar Nama Karyawan yang ditugaskan :</strong>  
                                             </p>
+                                            <p>Suyantz, Yanto, Dearmadi</p>
                                         </div>
                                         <hr>
+                                        <form action="">
                                         <div>
+                                            <p class="mb-2">
+                                                Nama Karyawan
+                                            </p>
                                             <p>
-                                                <strong>Nomor Training :</strong> TR331
+                                                <select name="select" id="select" class="form-control">
+                                                    <option value="0">Please select</option>
+                                                    <option value="1">Option #1</option>
+                                                    <option value="2">Option #2</option>
+                                                    <option value="3">Option #3</option>
+                                                </select>
+                                                <button type="submit" class="btn btn-success mt-3">Tambah</button>
                                             </p>
                                         </div>
-                                        <hr>
-                                        <div>
-                                            <p>
-                                                <strong>Nama Training :</strong> Training Marketing
-                                            </p>
-                                        </div>
-                                        <hr>
-                                        <div>
-                                            <p>
-                                                <strong>Durasi (Hari) :</strong> 15
-                                            </p>
-                                        </div>
-                                        <hr>
-                                        <div>
-                                            <p>
-                                                <strong>Lokasi :</strong> Jakarta
-                                            </p>
-                                        </div>
-                                        <hr>
-                                        <div>
-                                            <p>
-                                                <strong>Tanggal Mulai :</strong> 14 Agustus 2019
-                                            </p>
-                                        </div>
-                                        <hr>
-                                        <div>
-                                            <p>
-                                                <strong>Standar Kompetensi :</strong> Detail Standar Kompetensi
-                                            </p>
-                                        </div>
-                                           
-                                       </p>
                                    </div>
                                </div>
                             </div>
