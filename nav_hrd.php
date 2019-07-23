@@ -75,19 +75,19 @@
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" style="display: block;">
-                                <li>
+                                <li class="<?php if($page=='hrd_training_plan'){echo 'active';}?>">
                                     <a href="hrd_training_plan.php">Plan</a>
                                 </li>
-                                <li>
+                                <li class="<?php if($page=='hrd_training_modul'){echo 'active';}?>">
                                     <a href="hrd_training_modul.php">Modul</a>
                                 </li>
-                                <li>
+                                <li class="<?php if($page=='hrd_training_sertifikat'){echo 'active';}?>">
                                     <a href="hrd_training_sertifikat.php">Sertifikat</a>
                                 </li>
-                                <li>
+                                <li class="<?php if($page=='hrd_training_request'){echo 'active';}?>">
                                     <a href="hrd_training_request.php">Request</a>
                                 </li>
-                                <li>
+                                <li class="<?php if($page=='hrd_training_laporan'){echo 'active';}?>">
                                     <a href="hrd_training_laporan.php">Laporan</a>
                                 </li>
                             </ul>
