@@ -53,6 +53,8 @@
             $('#tabelPenugasan').DataTable();
 
             $('#tabelPenugasan').DataTable();
+
+            $('#tabelTrainingModul').DataTable();
         });
     </script>
 
