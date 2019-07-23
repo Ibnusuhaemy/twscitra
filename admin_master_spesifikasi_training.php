@@ -1,6 +1,6 @@
 <?php 
-    $title = "Master Tipe Training | Admin";
-    $page = "admin_master_training_type";
+    $title = "Master Spesifikasi Training | Admin";
+    $page = "admin_master_spesifikasi_training";
 ?>
 
 <?php include 'header.php'; ?>
@@ -72,12 +72,12 @@
                                     <div class="au-card-title " style="background-image:url( 'images/bg-title-01.jpg'); ">
                                         <div class="bg-overlay bg-overlay--blue "></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar "></i>Tipe Training
+                                            <i class="zmdi zmdi-account-calendar "></i>Spesifikasi Training
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load ">
                                         <div class="card-body card-block ">
-                                            <a href="admin_master_form_training_type.php" type="submit " class="btn btn-primary btn-sm ">
+                                            <a href="admin_master_form_spesifikasi_training.php" type="submit " class="btn btn-primary btn-sm ">
                                                 <i class="fa fa-plus-circle " aria-hidden="true "></i> Tambah Data
                                             </a>
 
@@ -104,7 +104,7 @@
                                                                 <td>...</td>
                                                                 <td>
 
-                                                                    <a type="submit " class="btn btn-primary btn-sm" href="admin_master_form_training_type.php">
+                                                                    <a type="submit " class="btn btn-primary btn-sm" href="admin_master_form_spesifikasi_training.php">
                                                                         <i class="fa fa-pencil-square " aria-hidden="true "></i> Edit
                                                                     </a>
                                                                     <!-- <button type="submit " class="btn btn-primary btn-sm ">

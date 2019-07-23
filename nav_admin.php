@@ -49,8 +49,8 @@
                                 <li class="<?php if($page=='admin_master_jabatan'){echo 'active';}?>">
                                     <a href="admin_master_jabatan.php">Jabatan</a>
                                 </li>
-                                <li class="<?php if($page=='admin_master_training_type'){echo 'active';}?>">
-                                    <a href="admin_master_training_type.php">Tipe Training</a>
+                                <li class="<?php if($page=='admin_master_spesifikasi_training'){echo 'active';}?>">
+                                    <a href="admin_master_spesifikasi_training.php">Spesifikasi Training</a>
                                 </li>
                                 <li class="<?php if($page=='admin_master_department'){echo 'active';}?>">
                                     <a href="admin_master_department.php">Departemen</a>
@@ -110,8 +110,8 @@
                                 <li class="<?php if($page=='admin_master_jabatan'){echo 'active';}?>">
                                     <a href="admin_master_jabatan.php">Jabatan</a>
                                 </li>
-                                <li class="<?php if($page=='admin_master_training_type'){echo 'active';}?>">
-                                    <a href="admin_master_training_type.php">Tipe Training</a>
+                                <li class="<?php if($page=='admin_master_spesifiksi_training'){echo 'active';}?>">
+                                    <a href="admin_master_spesifiksi_training.php"></a>
                                 </li>
                                 <li class="<?php if($page=='admin_master_department'){echo 'active';}?>">
                                     <a href="admin_master_department.php">Departemen</a>

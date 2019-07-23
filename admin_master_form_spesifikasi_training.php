@@ -1,6 +1,6 @@
 <?php 
-    $title = "Master Form Tipe Training | Admin";
-    $page = "admin_master_form_training_type";
+    $title = "Master Form Spesifikasi Training | Admin";
+    $page = "admin_master_form_spesifikasi_training";
 ?>
 
 <?php include 'header.php'; ?>
@@ -72,7 +72,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Form Tipe Training
+                                            <i class="zmdi zmdi-account-calendar"></i>Form Spesifikasi Training
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">

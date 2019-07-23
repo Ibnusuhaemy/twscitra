@@ -97,7 +97,12 @@
                                                             <tr>
                                                                 <td>...</td>
                                                                 <td>...</td>
-                                                                <th>...</th>
+                                                                <td>
+                                                                    <!-- Trigger the modal with a button -->
+                                                                    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+                                                                   
+                                                                    <a href="vendor/ViewerJS/#../../content/sertif.pdf" target="_blank" class="btn btn-sm btn-primary">Open Document</a>
+                                                                </td>
                                                                 <td>
 
                                                                     <a type="submit" class="btn btn-primary btn-sm" href="admin_training_form_modul.php">
