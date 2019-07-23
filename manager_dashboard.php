@@ -121,13 +121,13 @@
                                                         <td>Angga</td>
                                                         <td>Design interior</td>
                                                         <td>20 April 2019</td>
-                                                        <td><button type="button" class="btn btn-outline-secondary btn-sm">Detail info</td></td>
+                                                        <td><a href="manager_training_request.php" class="btn btn-outline-secondary btn-sm">Detail info</td></td>
                                                     </tr>
                                                     <tr>
                                                         <td>Nita</td>
                                                         <td>Design exterior</td>
                                                         <td>2 Mei 2019</td>
-                                                        <td><button type="button" class="btn btn-outline-secondary btn-sm">Detail info</td></td>
+                                                        <td><a href="manager_training_request.php" class="btn btn-outline-secondary btn-sm">Detail info</td></td>
                                                     </tr>
                                                 </tbody>
                                             </table>

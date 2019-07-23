@@ -1,7 +1,7 @@
 <?php 
-    $title = "Penugasan Training | Karyawan";
+    $title = "Hasil Training | Karyawan";
     $sub_training = true;
-    $page = "karyawan_training_penugasan";
+    $page = "hrd_training_hasil";
  ?>
 <?php include 'header.php'; ?>
     
@@ -72,7 +72,7 @@
                                     <div class="au-card-title" style="background-image:url('images/bg-title-01.jpg');">
                                         <div class="bg-overlay bg-overlay--blue"></div>
                                         <h3>
-                                            <i class="zmdi zmdi-account-calendar"></i>Penugasan Training
+                                            <i class="zmdi zmdi-account-calendar"></i>Hasil Training
                                         </h3>
                                     </div>
                                     <div class="au-task js-list-load">
@@ -82,41 +82,29 @@
                                                     <thead>
                                                         <tr>
                                                             <th>Kompetensi</th>
-                                                            <th>Nomor Training</th>
-                                                            <th>Tanggal Mulai </th>
-                                                            <th>Durasi (hari)</th>
-                                                            <th>Trainer</th>
-                                                            <th>Lokasi</th>
+                                                            <th>Nama Training</th>
                                                             <th>Standar Kompetensi</th>
+                                                            <th>Nama Karyawan</th>
+                                                            <th>Nilai Training</th>
+                                                            <th>Status</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
                                                             <td>Marketing</td>
-                                                            <td>TR331</td>
-                                                            <td>15 Januari 2019</td>
-                                                            <td>15</td>
-                                                            <td>Dr. Nonim</td>
-                                                            <td>Jakarta</td>
+                                                            <td>Training Marketing</td>
                                                             <td>Junior Marketer</td>
+                                                            <td>Simon</td>
+                                                            <td>4</td>
+                                                            <td>Lulus</td>
                                                         </tr>
                                                         <tr>
                                                             <td>Marketing</td>
-                                                            <td>TR331</td>
-                                                            <td>15 Januari 2019</td>
-                                                            <td>15</td>
-                                                            <td>Dr. Nonim</td>
-                                                            <td>Jakarta</td>
+                                                            <td>Training Marketing</td>
                                                             <td>Junior Marketer</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Marketing</td>
-                                                            <td>TR331</td>
-                                                            <td>15 Januari 2019</td>
-                                                            <td>15</td>
-                                                            <td>Dr. Nonim</td>
-                                                            <td>Jakarta</td>
                                                             <td>Junior Marketer</td>
+                                                            <td>3</td>
+                                                            <td>Belum Lulus</td>
                                                         </tr>
                                                         
                                                     </tbody>
