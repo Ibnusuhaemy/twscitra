@@ -1,12 +1,7 @@
 <?php 
-<<<<<<< HEAD:admin_master_spesifikasi_training.php
     $title = "Master Spesifikasi Training | Admin";
-    $page = "admin_master_spesifikasi_training";
-=======
-    $title = "Master Tipe Training | Admin";
     $sub_master = true;
-    $page = "admin_master_training_type";
->>>>>>> f808bea9acc3fc28f4d61d864a86b1c29d091cf6:admin_master_training_type.php
+    $page = "admin_master_spesifikasi_training";
 ?>
 
 <?php include 'header.php'; ?>

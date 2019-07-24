@@ -115,7 +115,7 @@
                                     <a href="admin_master_jabatan.php">Jabatan</a>
                                 </li>
                                 <li class="<?php if($page=='admin_master_spesifiksi_training'){echo 'active';}?>">
-                                    <a href="admin_master_spesifiksi_training.php"></a>
+                                    <a href="admin_master_spesifikasi_training.php">Spesifikasi Training</a>
                                 </li>
                                 <li class="<?php if($page=='admin_master_department'){echo 'active';}?>">
                                     <a href="admin_master_department.php">Departemen</a>
