@@ -45,7 +45,7 @@
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="admin_profile.php">
+                                                    <a href="hrd_profile.php">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>

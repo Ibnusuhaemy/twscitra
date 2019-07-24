@@ -1,5 +1,5 @@
 <?php 
-    $title = "Training plan | Karyawan";
+    $title = "Training plan | hrd";
     $sub_training = true;
     $page = "hrd_training_plan";
  ?>
@@ -26,25 +26,25 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">Karyawan</a>
+                                            <a class="js-acc-btn" href="#">HRD</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
-                                                    <a href="karyawan_profile.php">
+                                                    <a href="hrd_profile.php">
                                                         <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="karyawan_profile.php">Karyawan</a>
+                                                        <a href="hrd_profile.php">HRD</a>
                                                     </h5>
-                                                    <span class="email">What a good day, Karyawan</span>
+                                                    <span class="email">What a good day, HRD</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="Karyawan-profile.html">
+                                                    <a href="hrd_profile.php">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>

@@ -1,5 +1,5 @@
 <?php 
-    $title = "Training Sertifikat | Admin";
+    $title = "Training Sertifikat | HRD";
     $sub_training = true;
     $page = "hrd_training_sertifikat";
 ?>
@@ -27,25 +27,25 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">Admin</a>
+                                            <a class="js-acc-btn" href="#">HRD</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
-                                                    <a href="admin_profile.php">
+                                                    <a href="hrd_profile.php">
                                                         <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="admin_profile.php">Admin</a>
+                                                        <a href="hrd_profile.php">HRD</a>
                                                     </h5>
-                                                    <span class="email">What a good day, Admin</span>
+                                                    <span class="email">What a good day, HRD</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
                                                 <div class="account-dropdown__item">
-                                                    <a href="admin_profile.php">
+                                                    <a href="hrd_profile.php">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>
