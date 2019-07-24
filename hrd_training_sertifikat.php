@@ -108,9 +108,9 @@
                                                                 </td>
                                                                 <td>
 
-                                                                    <a type="submit" class="btn btn-primary btn-sm" href="admin_training_form_sertifikat.php">
+                                                                    <!-- <a type="submit" class="btn btn-primary btn-sm" href="admin_training_form_sertifikat.php">
                                                                         <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
-                                                                    </a>
+                                                                    </a> -->
                                                                     <!-- <button type="submit" class="btn btn-primary btn-sm">
                                                                         <i class="fa fa-dot-circle-o"></i> Hapus
                                                                     </button>
@@ -136,9 +136,9 @@
                                                                 </td>
                                                                 <td>
 
-                                                                    <a type="submit" class="btn btn-primary btn-sm" href="admin_training_form_sertifikat.php">
+                                                                    <!-- <a type="submit" class="btn btn-primary btn-sm" href="admin_training_form_sertifikat.php">
                                                                         <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
-                                                                    </a>
+                                                                    </a> -->
                                                                     <!-- <button type="submit" class="btn btn-primary btn-sm">
                                                                         <i class="fa fa-dot-circle-o"></i> Hapus
                                                                     </button>

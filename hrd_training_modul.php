@@ -1,5 +1,6 @@
 <?php 
     $title = "Training Modul | Karyawan";
+    $sub_training = true;
     $page = "hrd_training_modul";
 ?>
 <?php include 'header.php'; ?>

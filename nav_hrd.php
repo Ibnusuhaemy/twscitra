@@ -72,11 +72,12 @@
                             <a href="hrd_karyawan.php">
                                 <i class="fas fa-chart-bar"></i>Karyawan</a>
                         </li>
-                        <li class="has-sub">
+                        <li class="has-sub" >
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>Training</a>
 
-                            <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" style="display: block;">
+                            <ul class="list-unstyled navbar__sub-list js-sub-list pl-5" <?php if (isset($sub_training)) {
+                            echo 'style="display: block;"';}?>>
                                 <li class="<?php if($page=='hrd_training_plan'){echo 'active';}?>">
                                     <a href="hrd_training_plan.php">Plan</a>
 

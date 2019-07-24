@@ -1,7 +1,6 @@
 <?php 
     $title = "Training Laporan | HRD";
     $sub_training = true;
-    $sub_master = false;
     $page = "hrd_training_laporan";
 ?>
 
