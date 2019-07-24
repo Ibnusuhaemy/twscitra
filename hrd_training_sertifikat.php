@@ -9,7 +9,7 @@
     <div class="page-wrapper">
 
         <!-- Navbar Admin -->
-        <?php include 'nav_admin.php' ?>
+        <?php include 'nav_hrd.php' ?>
         
         <!-- PAGE CONTAINER-->
         <div class="page-container">
