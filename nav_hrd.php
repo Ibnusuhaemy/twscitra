@@ -91,6 +91,9 @@
                                 <li class="<?php if($page=='hrd_training_request'){echo 'active';}?>">
                                     <a href="hrd_training_request.php">Request</a>
                                 </li>
+                                <li class="<?php if($page=='hrd_training_hasil'){echo 'active';}?>">
+                                    <a href="hrd_training_hasil.php">Hasil Training</a>
+                                </li>
                                 <li class="<?php if($page=='hrd_training_laporan'){echo 'active';}?>">
                                     <a href="hrd_training_laporan.php">Laporan</a>
                                 </li>
