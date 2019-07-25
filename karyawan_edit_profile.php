@@ -154,7 +154,6 @@
                                                         <input type="text" id="email-karyawan" name="email-karyawan" class="form-control">
                                                     </div>
                                                 </div>
-                                            </form>
                                         </div>
                                         <div class="card-footer">
                                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">
@@ -186,6 +185,7 @@
                             <button type="button" class="btn btn-primary">Edit</button>
                         </div>
                     </div>
+                                    </form>
                 </div>
             </div>
             </div>

@@ -78,7 +78,7 @@
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
                                             <div class="pl-1 mb-4">
-                                                <a href="#" class="btn btn-md btn-primary">Request Training</a>
+                                                <!-- <a href="#" class="btn btn-md btn-primary">Request Training</a> -->
                                             </div>
                                             <div class="table-responsive">
                                                 <table class="table table-borderless table-data3" id="tabelPenugasan">

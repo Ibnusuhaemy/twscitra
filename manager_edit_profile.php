@@ -154,7 +154,7 @@
                                                         <input type="text" id="email-manager" name="email-manager" class="form-control">
                                                     </div>
                                                 </div>
-                                            </form>
+                                            
                                         </div>
                                         <div class="card-footer">
                                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">
@@ -182,9 +182,10 @@
                                 </form>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                                <button type="submit" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
                                 <button type="button" class="btn btn-primary">Edit</button>
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>

@@ -78,9 +78,9 @@
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <a href="admin_training_form_sertifikat.php" type="submit" class="btn btn-primary btn-sm mb-3">
+                                            <!-- <a href="admin_training_form_sertifikat.php" type="submit" class="btn btn-primary btn-sm mb-3">
                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i> Tambah Data
-                                            </a>
+                                            </a> -->
 
                                             <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
                                                 <!-- DATA TABLE-->
