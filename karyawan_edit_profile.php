@@ -82,7 +82,7 @@
                                                         <label for="nama-karyawan" class=" form-control-label">Nama</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nama-karyawan" name="nama-karyawan" placeholder="Veroo" class="form-control">
+                                                        <input type="text" id="nama-karyawan" name="nama-karyawan" placeholder="Veroo" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -103,7 +103,7 @@
                                                         <label for="tglrekrut-karyawan" class=" form-control-label">Tanggal Direkrut</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="date" id="tglrekrut-karyawan" name="tglrekrut-karyawan" class="form-control">
+                                                        <input type="date" id="tglrekrut-karyawan" name="tglrekrut-karyawan" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -119,7 +119,7 @@
                                                         <label for="nik-karyawan" class=" form-control-label">NIK</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nik-karyawan" name="nama-karyawan" class="form-control">
+                                                        <input type="text" id="nik-karyawan" name="nama-karyawan" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -127,7 +127,7 @@
                                                         <label for="npwp-karyawan" class=" form-control-label">NPWP</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="npwp-karyawan" name="npwp-karyawan" class="form-control">
+                                                        <input type="text" id="npwp-karyawan" name="npwp-karyawan" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -135,7 +135,7 @@
                                                         <label for="softskills-karyawan" class=" form-control-label">Softskills</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="softskills-karyawan" name="softskills-karyawan" class="form-control">
+                                                        <input type="text" id="softskills-karyawan" name="softskills-karyawan" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -143,7 +143,7 @@
                                                         <label for="hardskills-karyawan" class=" form-control-label">Hardskills</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="hardskills-karyawan" name="hardskills-karyawan" class="form-control">
+                                                        <input type="text" id="hardskills-karyawan" name="hardskills-karyawan" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -151,7 +151,7 @@
                                                         <label for="email-karyawan" class=" form-control-label">Email</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="email-karyawan" name="email-karyawan" class="form-control">
+                                                        <input type="text" id="email-karyawan" name="email-karyawan" class="form-control" required>
                                                     </div>
                                                 </div>
                                         </div>

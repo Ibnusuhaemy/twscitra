@@ -83,7 +83,7 @@
                                                         <label for="id" class=" form-control-label">ID Tipe Training</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="id" name="id" placeholder="" class="form-control">
+                                                        <input type="text" id="id" name="id" placeholder="" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -112,7 +112,7 @@
                                                         <label for="kompetensi" class=" form-control-label">Kompetensi</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="kompetensi" name="kompetensi" placeholder="" class="form-control">
+                                                        <input type="text" id="kompetensi" name="kompetensi" placeholder="" class="form-control"required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -124,19 +124,19 @@
                                                             <div class="checkbox">
                                                                 <label for="checkbox1" class="form-check-label ">
                                                                     <input type="checkbox" id="checkbox1" name="checkbox1" value="option1"
-                                                                        class="form-check-input">Safety
+                                                                        class="form-check-input" required>Safety
                                                                 </label>
                                                             </div>
                                                             <div class="checkbox">
                                                                 <label for="checkbox2" class="form-check-label ">
                                                                     <input type="checkbox" id="checkbox2" name="checkbox2" value="option2"
-                                                                        class="form-check-input">Environment
+                                                                        class="form-check-input" required>Environment
                                                                 </label>
                                                             </div>
                                                             <div class="checkbox">
                                                                 <label for="checkbox3" class="form-check-label ">
                                                                     <input type="checkbox" id="checkbox3" name="checkbox3" value="option3"
-                                                                        class="form-check-input">Quality
+                                                                        class="form-check-input" required>Quality
                                                                 </label>
                                                             </div>
                                                         </div>
@@ -147,7 +147,7 @@
                                                         <label for="perlu" class=" form-control-label">Training yang diperlukan</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="perlu" name="perlu" placeholder="" class="form-control">
+                                                        <input type="text" id="perlu" name="perlu" placeholder="" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -155,15 +155,16 @@
                                                         <label for="standar" class=" form-control-label">Standar Kompetensi</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="standar" name="standar" placeholder="" class="form-control">
+                                                        <input type="text" id="standar" name="standar" placeholder="" class="form-control" required>
                                                     </div>
                                                 </div>
-                                            </form>
+                                            
                                         </div>
                                         <div class="card-footer">
                                             <button type="submit" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-dot-circle-o"></i> Submit
                                             </button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>

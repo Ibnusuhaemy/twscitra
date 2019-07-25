@@ -82,7 +82,7 @@
                                                         <label for="nama-manager" class=" form-control-label">Nama</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nama-manager" name="nama-manager" placeholder="Veroo" class="form-control">
+                                                        <input type="text" id="nama-manager" name="nama-manager" placeholder="Veroo" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -103,7 +103,7 @@
                                                         <label for="tglrekrut-manager" class=" form-control-label">Tanggal Direkrut</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="date" id="tglrekrut-manager" name="tglrekrut-manager" class="form-control">
+                                                        <input type="date" id="tglrekrut-manager" name="tglrekrut-manager" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -111,7 +111,7 @@
                                                         <label for="alamat-manager" class=" form-control-label">Alamat</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <textarea name="textarea-input" id="alamat-manager" rows="2" class="form-control"></textarea>
+                                                        <textarea name="textarea-input" id="alamat-manager" rows="2" class="form-control" required></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -119,7 +119,7 @@
                                                         <label for="nik-manager" class=" form-control-label">NIK</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nik-manager" name="nama-manager" class="form-control">
+                                                        <input type="text" id="nik-manager" name="nama-manager" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -127,7 +127,7 @@
                                                         <label for="npwp-manager" class=" form-control-label">NPWP</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="npwp-manager" name="npwp-manager" class="form-control">
+                                                        <input type="text" id="npwp-manager" name="npwp-manager" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -135,7 +135,7 @@
                                                         <label for="softskills-manager" class=" form-control-label">Softskills</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="softskills-manager" name="softskills-manager" class="form-control">
+                                                        <input type="text" id="softskills-manager" name="softskills-manager" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -143,7 +143,7 @@
                                                         <label for="hardskills-manager" class=" form-control-label">Hardskills</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="hardskills-manager" name="hardskills-manager" class="form-control">
+                                                        <input type="text" id="hardskills-manager" name="hardskills-manager" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -151,7 +151,7 @@
                                                         <label for="email-manager" class=" form-control-label">Email</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="email-manager" name="email-manager" class="form-control">
+                                                        <input type="text" id="email-manager" name="email-manager" class="form-control" required>
                                                     </div>
                                                 </div>
                                             
