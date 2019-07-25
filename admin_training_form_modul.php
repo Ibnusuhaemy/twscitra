@@ -84,8 +84,8 @@
                                                         <label for="spesifikasi" class=" form-control-label">Spesifikasi Training</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="spesifikasi" id="spesifikasi" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                        <select name="spesifikasi" id="spesifikasi" class="form-control" required>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Spesifikasi Training 1</option>
                                                             <option value="2">Spesifikasi Training 2</option>
                                                             <option value="3">Spesifikasi Training 3</option>
@@ -97,8 +97,8 @@
                                                         <label for="nama" class=" form-control-label">Nama Training</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="nama" id="nama" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                        <select name="nama" id="nama" class="form-control" required>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Nama Training 1</option>
                                                             <option value="2">Nama Training 2</option>
                                                             <option value="3">Nama Training 3</option>
@@ -110,15 +110,15 @@
                                                         <label for="file" class=" form-control-label">File Training</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="file" id="file" name="file" class="form-control-file">
+                                                        <input type="file" id="file" name="file" class="form-control-file" required>
                                                     </div>
                                                 </div>
-                                            </form>
                                         </div>
                                         <div class="card-footer">
                                             <button type="submit" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-dot-circle-o"></i> Submit
                                             </button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>

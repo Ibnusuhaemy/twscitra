@@ -89,8 +89,8 @@
                                                         <label for="spesifikasi" class=" form-control-label">Spesifikasi Training</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="spesifikasi" id="spesifikasi" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                        <select name="spesifikasi" id="spesifikasi" class="form-control" required>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Spesifikasi Training 1</option>
                                                             <option value="2">Spesifikasi Training 2</option>
                                                             <option value="3">Spesifikasi Training 3</option>
@@ -99,10 +99,10 @@
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="durasi" class=" form-control-label">Durasi</label>
+                                                        <label for="durasi" class=" form-control-label">Durasi (bulan)</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="durasi" name="durasi" placeholder="" class="form-control">
+                                                        <input type="number" id="durasi" name="durasi" placeholder="" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -110,7 +110,7 @@
                                                         <label for="trainer" class=" form-control-label">Nama Trainer</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="trainer" name="trainer" placeholder="" class="form-control">
+                                                        <input type="text" id="trainer" name="trainer" placeholder="" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -118,7 +118,7 @@
                                                         <label for="lokasi" class=" form-control-label">Lokasi Training</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <textarea name="lokasi" id="lokasi" rows="9" placeholder="" class="form-control"></textarea>
+                                                        <textarea name="lokasi" id="lokasi" rows="9" placeholder="" class="form-control" required></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -126,7 +126,7 @@
                                                         <label for="tanggal" class=" form-control-label">Tanggal Mulai</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="date" id="tanggal" name="tanggal" placeholder="" class="form-control">
+                                                        <input type="date" id="tanggal" name="tanggal" placeholder="" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -135,7 +135,7 @@
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <select name="namaKaryawan" id="namaKaryawan" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Nama Karyawan 1</option>
                                                             <option value="2">Nama Karyawan 2</option>
                                                             <option value="3">Nama Karyawan 3</option>
@@ -148,7 +148,7 @@
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <select name="status" id="status" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Belum Berlangsung</option>
                                                             <option value="2">Sedang Berlangsung</option>
                                                             <option value="3">Sudah Berlangsung</option>

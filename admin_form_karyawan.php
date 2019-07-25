@@ -74,13 +74,13 @@
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                            <form action="admin_form_karyawan.php" method="post" enctype="multipart/form-data" class="form-horizontal">
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
                                                         <label for="name" class=" form-control-label">Nama</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="name" name="name" placeholder="" class="form-control">
+                                                        <input type="text" id="name" name="name" placeholder="" class="form-control" pattern="[A-Za-z]" title="Hanya Huruf" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -88,7 +88,7 @@
                                                         <label for="date_birth" class=" form-control-label">Tanggal Lahir</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="date" id="birth" name="dateBirth" placeholder="" class="form-control">
+                                                        <input type="date" id="birth" name="dateBirth" placeholder="" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -96,8 +96,8 @@
                                                         <label for="position" class=" form-control-label">Positions</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="position" id="position" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                        <select name="position" id="position" class="form-control" required>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Position 1</option>
                                                             <option value="2">Position 2</option>
                                                             <option value="3">Position 3</option>
@@ -109,7 +109,7 @@
                                                         <label for="date_hired" class=" form-control-label">Tanggal Direkrut</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="date" id="hired" name="dateHired" placeholder="" class="form-control">
+                                                        <input type="date" id="hired" name="dateHired" placeholder="" class="form-control" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -117,7 +117,7 @@
                                                         <label for="address" class=" form-control-label">Alamat</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <textarea name="address" id="address" rows="9" placeholder="" class="form-control"></textarea>
+                                                        <textarea name="address" id="address" rows="9" placeholder="" class="form-control" required></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -125,7 +125,7 @@
                                                         <label for="nik" class=" form-control-label">NIK</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nik" name="nik" placeholder="" class="form-control">
+                                                        <input type="text" id="nik" name="nik" placeholder="" class="form-control" pattern="[0-9]" title="Hanya Angka" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -133,7 +133,7 @@
                                                         <label for="npwp" class=" form-control-label">NPWP</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="npwp" name="npwp" placeholder="" class="form-control">
+                                                        <input type="text" id="npwp" name="npwp" placeholder="" class="form-control" pattern="[0-9]" title="Hanya Angka" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -195,7 +195,7 @@
                                                         <label for="email" class=" form-control-label">Email</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="email" id="email" name="email" placeholder="" class="form-control">
+                                                        <input type="email" id="email" name="email" placeholder="" class="form-control" pattern="[A-Za-z]" title="Hanya Huruf">
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -204,7 +204,7 @@
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <select name="Jabatan" id="jabatan-karyawan" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Position 1</option>
                                                             <option value="2">Position 2</option>
                                                             <option value="3">Position 3</option>
@@ -216,15 +216,15 @@
                                                         <label for="photo" class=" form-control-label">Photo</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="file" id="photo" name="photo" class="form-control-file">
+                                                        <input type="file" id="photo" name="photo" class="form-control-file" required>
                                                     </div>
                                                 </div>
-                                            </form>
                                         </div>
                                         <div class="card-footer">
                                             <button type="submit" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-dot-circle-o"></i> Submit
                                             </button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>

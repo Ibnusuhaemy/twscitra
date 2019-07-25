@@ -83,15 +83,15 @@
                                                         <label for="nama" class=" form-control-label">Nama Jabatan</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nama" name="nama" placeholder="" class="form-control">
+                                                        <input type="text" id="nama" name="nama" placeholder="" class="form-control" required>
                                                     </div>
                                                 </div>
-                                            </form>
                                         </div>
                                         <div class="card-footer">
                                             <button type="submit" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-dot-circle-o"></i> Submit
                                             </button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>

@@ -83,8 +83,8 @@
                                                         <label for="kompetensi" class=" form-control-label">Kompetensi</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="kompetensi" id="kompetensi" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                        <select name="kompetensi" id="kompetensi" class="form-control" required>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Kompetensi 1</option>
                                                             <option value="2">Kompetensi 2</option>
                                                             <option value="3">Kompetensi 3</option>
@@ -96,8 +96,8 @@
                                                         <label for="nomor" class=" form-control-label">Nomor Training</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="nomor" id="nomor" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                        <select name="nomor" id="nomor" class="form-control" required>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">001</option>
                                                             <option value="2">002</option>
                                                             <option value="3">003</option>
@@ -120,8 +120,8 @@
                                                         <label for="namaKaryawan" class=" form-control-label">Nama Karyawan</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="namaKaryawan" id="namaKaryawan" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                        <select name="namaKaryawan" id="namaKaryawan" class="form-control" required>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Nama Karyawan 1</option>
                                                             <option value="2">Nama Karyawan 2</option>
                                                             <option value="3">Nama Karyawan 3</option>
@@ -133,10 +133,9 @@
                                                         <label for="file" class=" form-control-label">File Sertifikat</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="file" id="file" name="file" class="form-control-file">
+                                                        <input type="file" id="file" name="file" class="form-control-file" required>
                                                     </div>
                                                 </div>
-                                            </form>
                                         </div>
                                         <div class="card-footer">
                                             <button type="submit" class="btn btn-primary btn-sm">
@@ -145,6 +144,7 @@
                                             <a href="admin_training_sertifikat.php" type="submit" class="btn btn-primary btn-sm">
                                                 <i class="fa fa-chevron-circle-left" aria-hidden="true"></i> Kembali
                                             </a>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
