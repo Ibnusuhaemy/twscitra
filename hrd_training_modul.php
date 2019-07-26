@@ -84,7 +84,7 @@
                                                             <th>Kompetisi Training</th>
                                                             <th>Nama Training</th>
                                                             <th>File Training</th>
-                                                            <th>Action</th>
+                                                            <!-- <th>Action</th> -->
                                                         </tr>
                                                     </thead>
                                                     <tbody>
@@ -97,19 +97,19 @@
                                                                    
                                                                 <a href="vendor/ViewerJS/#../../content/sertif.pdf" target="_blank" class="btn btn-sm btn-primary">Open Document</a>
                                                             </td>
-                                                            <td>
+                                                            <!-- <td>
                                                                 <a type="submit" class="btn btn-primary btn-sm" href="#">
                                                                     <i class="fa fa-pencil-square" aria-hidden="true"></i> Edit
                                                                 </a>
-                                                                <!-- <button type="submit" class="btn btn-primary btn-sm">
+                                                                <button type="submit" class="btn btn-primary btn-sm">
                                                                     <i class="fa fa-dot-circle-o"></i> Hapus
                                                                 </button>
-
-                                                                <!-- Button trigger modal -->
+                                                            
+                                                                Button trigger modal
                                                                 <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteModal">
                                                                     <i class="fa fa-trash" aria-hidden="true"></i> Hapus
                                                                 </button>
-                                                            </td>
+                                                            </td> -->
                                                         </tr>
                                                     </tbody>
                                                 </table>

@@ -91,12 +91,7 @@
                                                         <label for="jabatan" class=" form-control-label">Jabatan</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="Jabatan" id="jabatan" class="form-control">
-                                                            <option disabled selected value> -- select an option -- </option>
-                                                            <option value="1">Manager</option>
-                                                            <option value="2">Admin</option>
-                                                            <option value="3">Karyawan</option>
-                                                        </select>
+                                                        <label class=" form-control-label">HRD</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -104,7 +99,8 @@
                                                         <label for="tanggal" class=" form-control-label">Tanggal Direkrut</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="date" id="tanggal" name="tanggal" placeholder="" class="form-control" required>
+                                                        <!-- <input type="date" id="tanggal" name="tanggal" placeholder="" class="form-control" required> -->
+                                                        <label class=" form-control-label">3 Januari 2018</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -120,7 +116,8 @@
                                                         <label for="nik" class=" form-control-label">NIK</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nik" name="nik" placeholder="" class="form-control" title="hanya angka" pattern="[A-Za-z]{1,}" required>
+                                                        <!-- <input type="text" id="nik" name="nik" placeholder="" class="form-control" title="hanya angka" pattern="[A-Za-z]{1,}" required> -->
+                                                        <label class=" form-control-label">2498855684354684</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -128,7 +125,8 @@
                                                         <label for="npwp" class=" form-control-label">NPWP</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="npwp" name="npwp" placeholder="" class="form-control" title="hanya angka" pattern="[A-Za-z]{1,}" required>
+                                                        <!-- <input type="text" id="npwp" name="npwp" placeholder="" class="form-control" title="hanya angka" pattern="[A-Za-z]{1,}" required> -->
+                                                        <label class=" form-control-label">2498.85.56843.54684</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -136,7 +134,8 @@
                                                         <label for="softskills" class=" form-control-label">Softskills</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="softskills" name="softskills" placeholder="" class="form-control" required>
+                                                        <!-- <input type="text" id="softskills" name="softskills" placeholder="" class="form-control" required> -->
+                                                        <label class=" form-control-label">Some Softskills here</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -144,7 +143,7 @@
                                                         <label for="hardskills" class=" form-control-label">Hardskills</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="hardskills" name="hardskills" placeholder="" class="form-control" required>
+                                                        <label class=" form-control-label">Some Hardskills here</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">

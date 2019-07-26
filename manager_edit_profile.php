@@ -85,63 +85,62 @@
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="jabatan-manager" class=" form-control-label">Jabatan</label>
+                                                        <label for="jabatan" class=" form-control-label">Jabatan</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <select name="Jabatan" id="jabatan-manager" class="form-control">
-                                                            <option disabled selected value> -- select an option -- </option>
-                                                            <option value="1">Manager</option>
-                                                            <option value="2">Admin</option>
-                                                            <option value="3">Karyawan</option>
-                                                        </select>
+                                                        <label class=" form-control-label">HRD</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="tglrekrut-manager" class=" form-control-label">Tanggal Direkrut</label>
+                                                        <label for="tanggal" class=" form-control-label">Tanggal Direkrut</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="date" id="tglrekrut-manager" name="tglrekrut-manager" class="form-control" required>
+                                                        <!-- <input type="date" id="tanggal" name="tanggal" placeholder="" class="form-control" required> -->
+                                                        <label class=" form-control-label">3 Januari 2018</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="alamat-manager" class=" form-control-label">Alamat</label>
+                                                        <label for="alamat" class=" form-control-label">Alamat</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <textarea name="textarea-input" id="alamat-manager" rows="2" class="form-control" required></textarea>
+                                                        <textarea name="alamat" id="alamat" rows="9" placeholder="" class="form-control"></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="nik-manager" class=" form-control-label">NIK</label>
+                                                        <label for="nik" class=" form-control-label">NIK</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nik-manager" name="nama-manager" class="form-control" title="hanya angka" pattern="[0-9]{1,}" required>
+                                                        <!-- <input type="text" id="nik" name="nik" placeholder="" class="form-control" title="hanya angka" pattern="[A-Za-z]{1,}" required> -->
+                                                        <label class=" form-control-label">2498855684354684</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="npwp-manager" class=" form-control-label">NPWP</label>
+                                                        <label for="npwp" class=" form-control-label">NPWP</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="npwp-manager" name="npwp-manager" class="form-control" title="hanya angka" pattern="[0-9]{1,}" required>
+                                                        <!-- <input type="text" id="npwp" name="npwp" placeholder="" class="form-control" title="hanya angka" pattern="[A-Za-z]{1,}" required> -->
+                                                        <label class=" form-control-label">2498.85.56843.54684</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="softskills-manager" class=" form-control-label">Softskills</label>
+                                                        <label for="softskills" class=" form-control-label">Softskills</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="softskills-manager" name="softskills-manager" class="form-control" required>
+                                                        <!-- <input type="text" id="softskills" name="softskills" placeholder="" class="form-control" required> -->
+                                                        <label class=" form-control-label">Some Softskills here</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="hardskills-manager" class=" form-control-label">Hardskills</label>
+                                                        <label for="hardskills" class=" form-control-label">Hardskills</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="hardskills-manager" name="hardskills-manager" class="form-control" required>
+                                                        <label class=" form-control-label">Some Hardskills here</label>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
