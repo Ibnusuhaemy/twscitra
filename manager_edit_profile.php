@@ -16,8 +16,6 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="header-wrap">
-                            <form class="form-header" action="" method="POST">
-                            </form>
                             <div class="header-button">
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
@@ -76,13 +74,13 @@
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                            <form action="manager_edit_profile.php" method="post" enctype="multipart/form-data" class="form-horizontal">
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
                                                         <label for="nama-manager" class=" form-control-label">Nama</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nama-manager" name="nama-manager" placeholder="Veroo" class="form-control" required>
+                                                        <input type="text" id="nama-manager" name="nama-manager" class="form-control" pattern="[A-Za-z]{1,}" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -91,7 +89,7 @@
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <select name="Jabatan" id="jabatan-manager" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Manager</option>
                                                             <option value="2">Admin</option>
                                                             <option value="3">Karyawan</option>
@@ -119,7 +117,7 @@
                                                         <label for="nik-manager" class=" form-control-label">NIK</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nik-manager" name="nama-manager" class="form-control" required>
+                                                        <input type="text" id="nik-manager" name="nama-manager" class="form-control" title="hanya angka" pattern="[0-9]{1,}" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -127,7 +125,7 @@
                                                         <label for="npwp-manager" class=" form-control-label">NPWP</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="npwp-manager" name="npwp-manager" class="form-control" required>
+                                                        <input type="text" id="npwp-manager" name="npwp-manager" class="form-control" title="hanya angka" pattern="[0-9]{1,}" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -151,7 +149,7 @@
                                                         <label for="email-manager" class=" form-control-label">Email</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="email-manager" name="email-manager" class="form-control" required>
+                                                        <input type="email" id="email-manager" name="email-manager" class="form-control" required>
                                                     </div>
                                                 </div>
                                             
@@ -177,13 +175,11 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <form>
                                     <label for="recipient-name" class="col-form-label">Yakin edit profil?</label>
-                                </form>
                             </div>
                             <div class="modal-footer">
-                                <button type="submit" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-                                <button type="button" class="btn btn-primary">Edit</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                                <button type="submit" class="btn btn-primary">Edit</button>
                             </div>
                             </form>
                         </div>

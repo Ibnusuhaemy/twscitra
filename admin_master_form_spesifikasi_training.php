@@ -100,7 +100,7 @@
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <select name="positions" id="positions" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Position 1</option>
                                                             <option value="2">Position 2</option>
                                                             <option value="3">Position 3</option>
@@ -124,19 +124,19 @@
                                                             <div class="checkbox">
                                                                 <label for="checkbox1" class="form-check-label ">
                                                                     <input type="checkbox" id="checkbox1" name="checkbox1" value="option1"
-                                                                        class="form-check-input" required>Safety
+                                                                        class="form-check-input" >Safety
                                                                 </label>
                                                             </div>
                                                             <div class="checkbox">
                                                                 <label for="checkbox2" class="form-check-label ">
                                                                     <input type="checkbox" id="checkbox2" name="checkbox2" value="option2"
-                                                                        class="form-check-input" required>Environment
+                                                                        class="form-check-input" >Environment
                                                                 </label>
                                                             </div>
                                                             <div class="checkbox">
                                                                 <label for="checkbox3" class="form-check-label ">
                                                                     <input type="checkbox" id="checkbox3" name="checkbox3" value="option3"
-                                                                        class="form-check-input" required>Quality
+                                                                        class="form-check-input" >Quality
                                                                 </label>
                                                             </div>
                                                         </div>

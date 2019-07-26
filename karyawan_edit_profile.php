@@ -76,13 +76,13 @@
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="card-body card-block">
-                                            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                            <form action="karyawan_edit_profile.php" method="post" enctype="multipart/form-data" class="form-horizontal">
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
                                                         <label for="nama-karyawan" class=" form-control-label">Nama</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nama-karyawan" name="nama-karyawan" placeholder="Veroo" class="form-control" required>
+                                                        <input type="text" id="nama-karyawan" name="nama-karyawan" placeholder="" class="form-control" pattern="[A-Za-z]{1,}" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -176,16 +176,14 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <form>
                                 <label for="recipient-name" class="col-form-label">Yakin edit profil?</label>
-                            </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-                            <button type="button" class="btn btn-primary">Edit</button>
+                            <button type="submit" class="btn btn-primary">Edit</button>
                         </div>
                     </div>
-                                    </form>
+                            </form>
                 </div>
             </div>
             </div>

@@ -83,7 +83,7 @@
                                                         <label for="nama" class=" form-control-label">Nama</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nama" name="nama" placeholder="" class="form-control" required>
+                                                        <input type="text" id="nama" name="nama" placeholder="" class="form-control" title="hanya huruf" pattern="[A-Za-z]{1,}"  required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -92,7 +92,7 @@
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <select name="Jabatan" id="jabatan" class="form-control">
-                                                            <option value="0">Pilih</option>
+                                                            <option disabled selected value> -- select an option -- </option>
                                                             <option value="1">Manager</option>
                                                             <option value="2">Admin</option>
                                                             <option value="3">Karyawan</option>
@@ -120,7 +120,7 @@
                                                         <label for="nik" class=" form-control-label">NIK</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="nik" name="nik" placeholder="" class="form-control" required>
+                                                        <input type="text" id="nik" name="nik" placeholder="" class="form-control" title="hanya angka" pattern="[A-Za-z]{1,}" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
@@ -128,7 +128,7 @@
                                                         <label for="npwp" class=" form-control-label">NPWP</label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="npwp" name="npwp" placeholder="" class="form-control" required>
+                                                        <input type="text" id="npwp" name="npwp" placeholder="" class="form-control" title="hanya angka" pattern="[A-Za-z]{1,}" required>
                                                     </div>
                                                 </div>
                                                 <div class="row form-group">
