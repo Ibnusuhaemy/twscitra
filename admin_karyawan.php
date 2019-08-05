@@ -239,7 +239,10 @@
                                 Hapus data ini?
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Hapus</button>
+                                <form action="">
+                                    <input type="hidden" name="id_delete" value="set pakai jquery">
+                                <button type="submit" class="btn btn-primary">Hapus</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -259,7 +262,10 @@
                                 Atur Ulang Kata Sandi user ini?
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Atur Ulang Kata Sandi</button>
+                                <form action="">
+                                    <input type="hidden" name="id_reset_pw" value="set pakai jquery">
+                                <button type="submit" class="btn btn-primary">Atur ulang kata sandi</button>
+                                </form>
                             </div>
                         </div>
                     </div>

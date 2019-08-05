@@ -129,11 +129,11 @@
                                         <label for="recipient-name" class="col-form-label">Edit Kata Sandi</label>
                                         <input type="text" class="form-control" id="recipient-name">
                                     </div>
-                                </form>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
                             </div>
                         </div>
                     </div>

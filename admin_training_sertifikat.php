@@ -174,8 +174,11 @@
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                <button type="button" class="btn btn-primary">Confirm</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                                <form action="">
+                                    <input type="hidden" name="id_delete" value="set pakai jquery">
+                                <button type="submit" class="btn btn-primary">Hapus</button>
+                                </form>
                             </div>
                         </div>
                     </div>

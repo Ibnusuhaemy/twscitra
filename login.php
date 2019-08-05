@@ -35,6 +35,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                   <a href="admin.html" class="au-btn au-btn--block au-btn--green m-b-20">sign in</a>
+                                  <!-- <button type="submit" class="au-btn au-btn--block au-btn--green m-b-20">sign in</button> -->
                                 </div>
                             </form>
                         </div>

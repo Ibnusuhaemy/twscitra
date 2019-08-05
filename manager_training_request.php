@@ -185,7 +185,10 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak Setuju</button>
-                    <button type="button" class="btn btn-primary">Setuju</button>
+                    <form action="#">
+                        <input type="hidden" name="id_setuju" value="get dari jquery">    
+                        <button type="submit" class="btn btn-primary">Setuju</button>
+                    </form>
                 </div>
             </div>
         </div>
